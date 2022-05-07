@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git | Academic</title>
+    <link>https://aaandrievskaya.github.io/tag/git/</link>
+      <atom:link href="https://aaandrievskaya.github.io/tag/git/index.xml" rel="self" type="application/rss+xml" />
+    <description>Git</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 07 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://aaandrievskaya.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Git</title>
+      <link>https://aaandrievskaya.github.io/tag/git/</link>
+    </image>
+    
+    <item>
+      <title>Version management. Git</title>
+      <link>https://aaandrievskaya.github.io/post/version-control.-git/</link>
+      <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://aaandrievskaya.github.io/post/version-control.-git/</guid>
+      <description>&lt;h2 id=&#34;version-control-systems-general-concepts&#34;&gt;Version control systems. General concepts&lt;/h2&gt;
+&lt;p&gt;Version control systems (VCS) are used when several people work on the same project. Usually the main project tree is stored in the local
+or a remote repository to which access is configured for project members. At
+making changes to the content of the project, the version control system allows them to
+fix, combine changes made by different project participants,
+rollback to any earlier version of the project, if required.
+Classical version control systems use a centralized model,
+assuming a single repository for storing files. Most of the version control functions are performed by a dedicated server.
+The project participant (user) before starting work through certain
+command gets the version of files it needs. After making changes, the user
+commits the new version to the repository. This does not remove previous versions.
+from the central repository and you can return to them at any time. The server can
+save not the full version of the changed files, but produce the so-called delta compression - save only changes between successive versions, which
+allows you to reduce the amount of stored data.
+Version control systems support traceability and resolution
+conflicts that may arise when several people work on one
+file. You can merge (merge) the changes made by different participants (automatically or manually), manually select the desired version, undo the changes altogether
+or lock files for modification. Depending on the settings, blocking is not
+allows other users to get a working copy or prevents modification
+working copy of the file by means of the OS file system, thus providing
+privileged access to only one user working with the file.
+Version control systems can also provide additional, more flexible
+functionality. For example, they can support working with multiple versions of the same file, keeping a common history of changes up to the branch point.
+versions and each branch&amp;rsquo;s own change histories. In addition, it is usually available
+information about which of the participants, when and what changes were made. Usually this
+kind of information is stored in the change log, access to which can be restricted.
+Unlike classical ones, in distributed version control systems, the central
+the repository is optional.
+Among the classic VCS, CVS, Subversion are the most famous, and among the distributed ones - Git, Bazaar, Mercurial. The principles of their work are similar, they differ mainly
+the syntax of the commands used in the work.&lt;/p&gt;
+&lt;h2 id=&#34;basic-git-commands&#34;&gt;Basic git commands&lt;/h2&gt;
+&lt;p&gt;The most commonly used git commands are:
+– creating the main repository tree:&lt;/p&gt;
+&lt;p&gt;1 git init&lt;/p&gt;
+&lt;p&gt;– receiving updates (changes) of the current tree from the central repository:&lt;/p&gt;
+&lt;p&gt;1 git pull&lt;/p&gt;
+&lt;p&gt;– sending all the changes made to the local tree to the central repository:&lt;/p&gt;
+&lt;p&gt;1 git push&lt;/p&gt;
+&lt;p&gt;– view the list of changed files in the current directory:&lt;/p&gt;
+&lt;p&gt;1 git status&lt;/p&gt;
+&lt;p&gt;– view current changes:&lt;/p&gt;
+&lt;p&gt;1 git diff&lt;/p&gt;
+&lt;p&gt;– saving current changes:
+– add all modified and/or created files and/or directories:&lt;/p&gt;
+&lt;p&gt;1 git add .&lt;/p&gt;
+&lt;p&gt;– add specific modified and/or created files and/or directories:&lt;/p&gt;
+&lt;p&gt;1 git add filenames&lt;/p&gt;
+&lt;p&gt;– delete a file and/or directory from the repository index (in this case, the file and/or directory
+remains in the local directory):&lt;/p&gt;
+&lt;p&gt;1 git rm filenames&lt;/p&gt;
+&lt;p&gt;– saving the added changes:
+– save all added changes and all modified files:&lt;/p&gt;
+&lt;p&gt;1 git commit -am &amp;lsquo;Commit description&amp;rsquo;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;save the added changes with a comment through the built-in
+editor:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;1 git commit&lt;/p&gt;
+&lt;p&gt;– creating a new branch based on the current one:&lt;/p&gt;
+&lt;p&gt;1 git checkout -b branchname&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;switch to some branch:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;1 git checkout branch_name&lt;/p&gt;
+&lt;p&gt;(when you switch to a branch that is not yet in the local repository, it will be
+created and linked to the remote)
+– pushing changes of a specific branch to the central repository:&lt;/p&gt;
+&lt;p&gt;1 git push origin branchname&lt;/p&gt;
+&lt;p&gt;– merge the branch with the current tree:&lt;/p&gt;
+&lt;p&gt;1 git merge &amp;ndash;no-ff branchname&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;deleting a branch:
+– deleting a local branch already merged with the main tree:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;1 git branch -d branchname&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;forced deletion of the local branch:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;1 git branch -D branchname&lt;/p&gt;
+&lt;p&gt;– deleting a branch from the central repository:&lt;/p&gt;
+&lt;p&gt;1 git push origin :branchname&lt;/p&gt;
+&lt;h2 id=&#34;standard-operating-procedures-for-a-central-repository&#34;&gt;Standard Operating Procedures for a Central Repository&lt;/h2&gt;
+&lt;p&gt;The work of the user with his branch begins with checking and receiving changes
+from the central repository (at the same time, to the local tree before starting this procedure
+should not be changed):&lt;/p&gt;
+&lt;p&gt;1 git checkout master
+2 git-pull
+3 git checkout -b branchname&lt;/p&gt;
+&lt;p&gt;You can then make changes in the local tree and/or branch.
+After the completion of making some change to the files and / or directories of the project
+you need to place them in the central repository. To do this, you need to check,
+which files have changed so far:&lt;/p&gt;
+&lt;p&gt;1 git status&lt;/p&gt;
+&lt;p&gt;and, if necessary, delete unnecessary files that we do not want to send to the central repository.
+Then it is useful to review the text of the changes for compliance with the rules for maintaining clean commits:&lt;/p&gt;
+&lt;p&gt;1 git diff&lt;/p&gt;
+&lt;p&gt;If some files should not be included in the commit, then we mark only those files that
+whose changes you want to save. To do this, use the commands add and/or
+deletion with the necessary options:&lt;/p&gt;
+&lt;p&gt;1 git add &amp;hellip;
+2 git rm &amp;hellip;&lt;/p&gt;
+&lt;p&gt;If you want to save all changes in the current directory, then use:&lt;/p&gt;
+&lt;p&gt;1 git add .&lt;/p&gt;
+&lt;p&gt;Then we save the changes, explaining what was done:&lt;/p&gt;
+&lt;p&gt;1 git commit -am &amp;ldquo;Some commit message&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;and send it to the central repository:&lt;/p&gt;
+&lt;p&gt;1 git push origin branchname
+or
+1 git push&lt;/p&gt;
+&lt;h2 id=&#34;working-with-a-local-repository&#34;&gt;Working with a local repository&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s create a local repository.
+First, let&amp;rsquo;s make a preliminary configuration by specifying the name and email of the owner of the repository:&lt;/p&gt;
+&lt;p&gt;1 git config &amp;ndash;global user.name &amp;ldquo;FirstName LastName&amp;rdquo;
+2 git config &amp;ndash;global user.email &amp;ldquo;work@mail&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;and setting utf-8 in git output:&lt;/p&gt;
+&lt;p&gt;1 git config &amp;ndash;global quotepath false&lt;/p&gt;
+&lt;p&gt;To initialize a local repository located, for example, in a directory
+~/tutorial must be typed on the command line:&lt;/p&gt;
+&lt;p&gt;1 cd
+2 mkdir tutorial
+3 cd tutorial
+4 git init&lt;/p&gt;
+&lt;p&gt;After that, a .git directory will appear in the tutorial directory, in which it will be stored
+change history.
+Let&amp;rsquo;s create a test text file hello.txt and add it to the local repository:&lt;/p&gt;
+&lt;p&gt;1 echo &amp;lsquo;hello world&amp;rsquo; &amp;gt; hello.txt
+2 git add hello.txt
+3 git commit -am &amp;lsquo;New file&amp;rsquo;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s use the status command to view the changes in the working directory since the last revision:&lt;/p&gt;
+&lt;p&gt;1 git status&lt;/p&gt;
+&lt;p&gt;While working on a project, one way or another, files can be created that are not
+needs to be added to the repository later. For example, temporary files created by editors or object files created by compilers. Can prescribe templates of file types ignored when adding to the repository in the file .gitignore with services. To do this, you first need to get a list of available
+templates:&lt;/p&gt;
+&lt;p&gt;curl -L -s &lt;a href=&#34;https://www.gitignore.io/api/list&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.gitignore.io/api/list&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Then download the template, for example, for C and C++&lt;/p&gt;
+&lt;p&gt;curl -L -s &lt;a href=&#34;https://www.gitignore.io/api/c&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.gitignore.io/api/c&lt;/a&gt; &amp;raquo; .gitignore
+curl -L -s &lt;a href=&#34;https://www.gitignore.io/api/c&amp;#43;&amp;#43;&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.gitignore.io/api/c++&lt;/a&gt; &amp;raquo; .gitignore&lt;/p&gt;
+&lt;h2 id=&#34;working-with-the-repository-server&#34;&gt;Working with the repository server&lt;/h2&gt;
+&lt;p&gt;For subsequent user identification on the repository server, it is necessary
+generate a key pair (private and public):&lt;/p&gt;
+&lt;p&gt;1 ssh-keygen -C &amp;ldquo;First Name Last Name &lt;a href=&#34;mailto:work@mail&#34;&gt;work@mail&lt;/a&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The keys are stored in the ~/.ssh/ directory.
+There are several repository servers available with the option of free
+data placement. For example, &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/&lt;/a&gt;.
+To work with it, you must first create an account on the website &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/&lt;/a&gt;. Then you need to upload the public key we generated earlier. For
+To do this, go to &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/&lt;/a&gt; under your account and go to the GitHub setting menu. After that, select SSH keys in the GitHub setting side menu and click
+the Add Key button. By copying the key from the local console to the clipboard&lt;/p&gt;
+&lt;p&gt;1 cat ~/.ssh/id_rsa.pub | xclip -sel clip&lt;/p&gt;
+&lt;p&gt;paste the key into the field that appears on the site.
+After that, you can create a repository on the site by selecting Repositories from the menu
+Create a repository, give it a name and make it public (public).
+To download the repository from the local directory to the server, execute the following
+commands:&lt;/p&gt;
+&lt;p&gt;1 git remote add origin
+2 ssh://git@github.com/&lt;username&gt;/&lt;reponame&gt;.git
+3 git push -u origin master&lt;/p&gt;
+&lt;p&gt;Further, on the local computer, you can perform standard procedures for working
+with git if there is a central repository.&lt;/p&gt;
+&lt;h2 id=&#34;general-information&#34;&gt;General information&lt;/h2&gt;
+&lt;p&gt;– Gitflow Workflow published and popularized by Vincent Driessen of Gitflow
+vie.
+– Gitflow Workflow involves building a strict branching model, taking into account
+project release.
+– This model is great for organizing a release-based workflow.
+– Working on the Gitflow model includes creating a separate branch for bug fixes
+in the working environment.
+– The sequence of actions when working on the Gitflow model:
+– The develop branch is created from the master branch.
+– A release branch is created from the develop branch.
+– Feature branches are created from the develop branch.
+– When work on the feature branch is completed, it is merged into the develop branch.
+– When work on a release branch is completed, it is merged into branches
+develop and master.
+– If a problem is found in master, a hotfix branch is created from master.
+– When a hotfix branch is completed, it is merged into branches
+develop and master.&lt;/p&gt;
+&lt;h2 id=&#34;software-installation&#34;&gt;Software installation&lt;/h2&gt;
+&lt;p&gt;– For Windows, the Chocolatey package manager is used. Git-flow is included
+git package.&lt;/p&gt;
+&lt;p&gt;1 choco install git&lt;/p&gt;
+&lt;p&gt;– For MacOS, use the Homebrew package manager.&lt;/p&gt;
+&lt;p&gt;1 brew install git-flow&lt;/p&gt;
+&lt;p&gt;– Linux
+– Gentoo&lt;/p&gt;
+&lt;p&gt;1 emerge dev-vcs/git-flow&lt;/p&gt;
+&lt;p&gt;– Ubuntu&lt;/p&gt;
+&lt;p&gt;1 apt-get install git-flow&lt;/p&gt;
+&lt;h2 id=&#34;work-process-with-gitflow&#34;&gt;Work process with Gitflow&lt;/h2&gt;
+&lt;h3 id=&#34;main-branches-master-and-development-branches-develop&#34;&gt;Main branches (master) and development branches (develop)&lt;/h3&gt;
+&lt;p&gt;To commit the history of the project within this process instead of a single master branch
+two branches are used. The master branch holds the official release history, while the develop branch is for merging all the features. In addition, for convenience
+it is recommended to give all commits in the master branch a version number.
+When using the git-flow extension library, you need to initialize the structure in an existing repository:&lt;/p&gt;
+&lt;p&gt;1 git flow init&lt;/p&gt;
+&lt;p&gt;For github, the Version tag prefix should be set to v.
+After that, check which branch you are on:&lt;/p&gt;
+&lt;p&gt;1 git branch&lt;/p&gt;
+&lt;h3 id=&#34;feature-branches&#34;&gt;Feature branches&lt;/h3&gt;
+&lt;p&gt;Each new feature should have its own branch, which can be
+send to the central repository for backup or sharing
+team work. Feature branches are created not on the basis of master, but on the basis of develop.
+When work on a feature is completed, the corresponding branch is merged back
+with the develop branch. Features should not be pushed directly to the master branch.
+Typically, feature branches are created from the latest develop branch.&lt;/p&gt;
+&lt;h3 id=&#34;creating-a-feature-branch&#34;&gt;Creating a feature branch&lt;/h3&gt;
+&lt;p&gt;Let&amp;rsquo;s create a new feature branch:&lt;/p&gt;
+&lt;p&gt;1 git flow feature start feature_branch&lt;/p&gt;
+&lt;p&gt;Further we work as usual&lt;/p&gt;
+&lt;h3 id=&#34;end-of-work-on-a-feature-branch&#34;&gt;End of work on a feature branch&lt;/h3&gt;
+&lt;p&gt;Upon completion of work on a feature
+merge feature_branch with develop:&lt;/p&gt;
+&lt;p&gt;1 git flow feature finish feature_branch&lt;/p&gt;
+&lt;h3 id=&#34;release-branches&#34;&gt;Release branches&lt;/h3&gt;
+&lt;p&gt;When the develop branch has enough features to release, the develop branch
+a release branch is created. Creating this branch starts the next release cycle,
+and from that moment on, new functions can no longer be added - only debugging is allowed,
+creating documentation and solving other problems. When the release preparation is completed,
+the release branch is merged into master and given a version number. After that, you need to merge with the develop branch, in which, since the creation of the release branch,
+changes occur.
+Due to the fact that a special branch is used for preparing releases, one
+a team can refine the current release while another team continues
+work on features for the next one.
+You can create a new release branch with the following command:&lt;/p&gt;
+&lt;p&gt;1 git flow release start 1.0.0&lt;/p&gt;
+&lt;p&gt;The following commands are used to complete work on the release branch:&lt;/p&gt;
+&lt;p&gt;1 git flow release finish 1.0.0&lt;/p&gt;
+&lt;h3 id=&#34;hotfix-branches&#34;&gt;Hotfix branches&lt;/h3&gt;
+&lt;p&gt;Support branches or hotfix branches are used for quick fixes
+to working releases. They are created from the master branch. This is the only thread that
+must be created directly from master. Once the fix is ​​complete,
+the branch should be merged into master and develop. The master branch should be tagged with an updated version number.
+Having a dedicated branch for fixing bugs allows the team to resolve issues without interrupting the rest of the workflow or waiting for the next cycle.
+release.
+A hotfix branch can be created with the following commands:&lt;/p&gt;
+&lt;p&gt;1 git flow hotfix start hotfix_branch&lt;/p&gt;
+&lt;p&gt;When finished, the hotfix branch is merged into master and develop:&lt;/p&gt;
+&lt;p&gt;1 git flow hotfix finish hotfix_branch&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

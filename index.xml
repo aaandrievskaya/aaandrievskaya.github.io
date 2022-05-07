@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Academic</title>
-    <link>https://example.com/</link>
-      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://aaandrievskaya.github.io/</link>
+      <atom:link href="https://aaandrievskaya.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://aaandrievskaya.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Academic</title>
-      <link>https://example.com/</link>
+      <link>https://aaandrievskaya.github.io/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>https://example.com/talk/example-talk/</link>
+      <link>https://aaandrievskaya.github.io/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://example.com/talk/example-talk/</guid>
+      <guid>https://aaandrievskaya.github.io/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -33,89 +33,273 @@
     </item>
     
     <item>
-      <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>https://example.com/post/getting-started/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/getting-started/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
-&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
-&lt;/ol&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-the-template-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png&#34; alt=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      The template is mobile first with a responsive design to ensure that your site looks stunning on every device.
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
+      <title>There are disappointments in life</title>
+      <link>https://aaandrievskaya.github.io/post/%D0%BDow-was-my-week/</link>
+      <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://aaandrievskaya.github.io/post/%D0%BDow-was-my-week/</guid>
+      <description>&lt;h2 id=&#34;it-is-life&#34;&gt;It is life&lt;/h2&gt;
+&lt;p&gt;So, I will no longer pull and tell you what happened. On Wednesday, I was in a hurry to go home, as it was already quite late. I stumbled and twisted my leg. It didn’t hurt me and at that moment I didn’t attach any importance to it. However, already on Friday, the leg was very swollen and it was impossible to walk.
+I had to go to the emergency room and explain the situation. Of course, there was no talk of attending a university. I was issued a sick leave and now I&amp;rsquo;m staying at home, away from all the interesting events&amp;hellip;&lt;/p&gt;
+&lt;p&gt;However, perhaps this is for the best. During this time, I will miss all my friends enough and it will be doubly joyful to see them again! Also, from now on, I will be much more accurate, because I no longer want to experience this for myself.&lt;/p&gt;
+&lt;p&gt;Now my leg already feels much better and is gradually disappearing, so you don’t have to worry, I will definitely return to the ranks !!!)&lt;/p&gt;
+&lt;h2 id=&#34;my-social-networks&#34;&gt;My social networks&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%23MadeWithWowchemy&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/hugo-tutorials/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Tutorial&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vk.com/grandryce&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;VK&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;grandryce_an&#34;&gt;&lt;strong&gt;Instagram&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
-&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
-&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomplans&#34;&gt;&lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Version management. Git</title>
+      <link>https://aaandrievskaya.github.io/post/version-control.-git/</link>
+      <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://aaandrievskaya.github.io/post/version-control.-git/</guid>
+      <description>&lt;h2 id=&#34;version-control-systems-general-concepts&#34;&gt;Version control systems. General concepts&lt;/h2&gt;
+&lt;p&gt;Version control systems (VCS) are used when several people work on the same project. Usually the main project tree is stored in the local
+or a remote repository to which access is configured for project members. At
+making changes to the content of the project, the version control system allows them to
+fix, combine changes made by different project participants,
+rollback to any earlier version of the project, if required.
+Classical version control systems use a centralized model,
+assuming a single repository for storing files. Most of the version control functions are performed by a dedicated server.
+The project participant (user) before starting work through certain
+command gets the version of files it needs. After making changes, the user
+commits the new version to the repository. This does not remove previous versions.
+from the central repository and you can return to them at any time. The server can
+save not the full version of the changed files, but produce the so-called delta compression - save only changes between successive versions, which
+allows you to reduce the amount of stored data.
+Version control systems support traceability and resolution
+conflicts that may arise when several people work on one
+file. You can merge (merge) the changes made by different participants (automatically or manually), manually select the desired version, undo the changes altogether
+or lock files for modification. Depending on the settings, blocking is not
+allows other users to get a working copy or prevents modification
+working copy of the file by means of the OS file system, thus providing
+privileged access to only one user working with the file.
+Version control systems can also provide additional, more flexible
+functionality. For example, they can support working with multiple versions of the same file, keeping a common history of changes up to the branch point.
+versions and each branch&amp;rsquo;s own change histories. In addition, it is usually available
+information about which of the participants, when and what changes were made. Usually this
+kind of information is stored in the change log, access to which can be restricted.
+Unlike classical ones, in distributed version control systems, the central
+the repository is optional.
+Among the classic VCS, CVS, Subversion are the most famous, and among the distributed ones - Git, Bazaar, Mercurial. The principles of their work are similar, they differ mainly
+the syntax of the commands used in the work.&lt;/p&gt;
+&lt;h2 id=&#34;basic-git-commands&#34;&gt;Basic git commands&lt;/h2&gt;
+&lt;p&gt;The most commonly used git commands are:
+– creating the main repository tree:&lt;/p&gt;
+&lt;p&gt;1 git init&lt;/p&gt;
+&lt;p&gt;– receiving updates (changes) of the current tree from the central repository:&lt;/p&gt;
+&lt;p&gt;1 git pull&lt;/p&gt;
+&lt;p&gt;– sending all the changes made to the local tree to the central repository:&lt;/p&gt;
+&lt;p&gt;1 git push&lt;/p&gt;
+&lt;p&gt;– view the list of changed files in the current directory:&lt;/p&gt;
+&lt;p&gt;1 git status&lt;/p&gt;
+&lt;p&gt;– view current changes:&lt;/p&gt;
+&lt;p&gt;1 git diff&lt;/p&gt;
+&lt;p&gt;– saving current changes:
+– add all modified and/or created files and/or directories:&lt;/p&gt;
+&lt;p&gt;1 git add .&lt;/p&gt;
+&lt;p&gt;– add specific modified and/or created files and/or directories:&lt;/p&gt;
+&lt;p&gt;1 git add filenames&lt;/p&gt;
+&lt;p&gt;– delete a file and/or directory from the repository index (in this case, the file and/or directory
+remains in the local directory):&lt;/p&gt;
+&lt;p&gt;1 git rm filenames&lt;/p&gt;
+&lt;p&gt;– saving the added changes:
+– save all added changes and all modified files:&lt;/p&gt;
+&lt;p&gt;1 git commit -am &amp;lsquo;Commit description&amp;rsquo;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/hugo-academic-cli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;li&gt;save the added changes with a comment through the built-in
+editor:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;p&gt;1 git commit&lt;/p&gt;
+&lt;p&gt;– creating a new branch based on the current one:&lt;/p&gt;
+&lt;p&gt;1 git checkout -b branchname&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://wowchemy.com/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://wowchemy.com/docs/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/docs/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://wowchemy.com/docs/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 34+ language packs including English, 中文, and Português&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;li&gt;switch to some branch:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+&lt;p&gt;1 git checkout branch_name&lt;/p&gt;
+&lt;p&gt;(when you switch to a branch that is not yet in the local repository, it will be
+created and linked to the remote)
+– pushing changes of a specific branch to the central repository:&lt;/p&gt;
+&lt;p&gt;1 git push origin branchname&lt;/p&gt;
+&lt;p&gt;– merge the branch with the current tree:&lt;/p&gt;
+&lt;p&gt;1 git merge &amp;ndash;no-ff branchname&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;deleting a branch:
+– deleting a local branch already merged with the main tree:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;1 git branch -d branchname&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;forced deletion of the local branch:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;1 git branch -D branchname&lt;/p&gt;
+&lt;p&gt;– deleting a branch from the central repository:&lt;/p&gt;
+&lt;p&gt;1 git push origin :branchname&lt;/p&gt;
+&lt;h2 id=&#34;standard-operating-procedures-for-a-central-repository&#34;&gt;Standard Operating Procedures for a Central Repository&lt;/h2&gt;
+&lt;p&gt;The work of the user with his branch begins with checking and receiving changes
+from the central repository (at the same time, to the local tree before starting this procedure
+should not be changed):&lt;/p&gt;
+&lt;p&gt;1 git checkout master
+2 git-pull
+3 git checkout -b branchname&lt;/p&gt;
+&lt;p&gt;You can then make changes in the local tree and/or branch.
+After the completion of making some change to the files and / or directories of the project
+you need to place them in the central repository. To do this, you need to check,
+which files have changed so far:&lt;/p&gt;
+&lt;p&gt;1 git status&lt;/p&gt;
+&lt;p&gt;and, if necessary, delete unnecessary files that we do not want to send to the central repository.
+Then it is useful to review the text of the changes for compliance with the rules for maintaining clean commits:&lt;/p&gt;
+&lt;p&gt;1 git diff&lt;/p&gt;
+&lt;p&gt;If some files should not be included in the commit, then we mark only those files that
+whose changes you want to save. To do this, use the commands add and/or
+deletion with the necessary options:&lt;/p&gt;
+&lt;p&gt;1 git add &amp;hellip;
+2 git rm &amp;hellip;&lt;/p&gt;
+&lt;p&gt;If you want to save all changes in the current directory, then use:&lt;/p&gt;
+&lt;p&gt;1 git add .&lt;/p&gt;
+&lt;p&gt;Then we save the changes, explaining what was done:&lt;/p&gt;
+&lt;p&gt;1 git commit -am &amp;ldquo;Some commit message&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;and send it to the central repository:&lt;/p&gt;
+&lt;p&gt;1 git push origin branchname
+or
+1 git push&lt;/p&gt;
+&lt;h2 id=&#34;working-with-a-local-repository&#34;&gt;Working with a local repository&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s create a local repository.
+First, let&amp;rsquo;s make a preliminary configuration by specifying the name and email of the owner of the repository:&lt;/p&gt;
+&lt;p&gt;1 git config &amp;ndash;global user.name &amp;ldquo;FirstName LastName&amp;rdquo;
+2 git config &amp;ndash;global user.email &amp;ldquo;work@mail&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;and setting utf-8 in git output:&lt;/p&gt;
+&lt;p&gt;1 git config &amp;ndash;global quotepath false&lt;/p&gt;
+&lt;p&gt;To initialize a local repository located, for example, in a directory
+~/tutorial must be typed on the command line:&lt;/p&gt;
+&lt;p&gt;1 cd
+2 mkdir tutorial
+3 cd tutorial
+4 git init&lt;/p&gt;
+&lt;p&gt;After that, a .git directory will appear in the tutorial directory, in which it will be stored
+change history.
+Let&amp;rsquo;s create a test text file hello.txt and add it to the local repository:&lt;/p&gt;
+&lt;p&gt;1 echo &amp;lsquo;hello world&amp;rsquo; &amp;gt; hello.txt
+2 git add hello.txt
+3 git commit -am &amp;lsquo;New file&amp;rsquo;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s use the status command to view the changes in the working directory since the last revision:&lt;/p&gt;
+&lt;p&gt;1 git status&lt;/p&gt;
+&lt;p&gt;While working on a project, one way or another, files can be created that are not
+needs to be added to the repository later. For example, temporary files created by editors or object files created by compilers. Can prescribe templates of file types ignored when adding to the repository in the file .gitignore with services. To do this, you first need to get a list of available
+templates:&lt;/p&gt;
+&lt;p&gt;curl -L -s &lt;a href=&#34;https://www.gitignore.io/api/list&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.gitignore.io/api/list&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Then download the template, for example, for C and C++&lt;/p&gt;
+&lt;p&gt;curl -L -s &lt;a href=&#34;https://www.gitignore.io/api/c&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.gitignore.io/api/c&lt;/a&gt; &amp;raquo; .gitignore
+curl -L -s &lt;a href=&#34;https://www.gitignore.io/api/c&amp;#43;&amp;#43;&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.gitignore.io/api/c++&lt;/a&gt; &amp;raquo; .gitignore&lt;/p&gt;
+&lt;h2 id=&#34;working-with-the-repository-server&#34;&gt;Working with the repository server&lt;/h2&gt;
+&lt;p&gt;For subsequent user identification on the repository server, it is necessary
+generate a key pair (private and public):&lt;/p&gt;
+&lt;p&gt;1 ssh-keygen -C &amp;ldquo;First Name Last Name &lt;a href=&#34;mailto:work@mail&#34;&gt;work@mail&lt;/a&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The keys are stored in the ~/.ssh/ directory.
+There are several repository servers available with the option of free
+data placement. For example, &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/&lt;/a&gt;.
+To work with it, you must first create an account on the website &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/&lt;/a&gt;. Then you need to upload the public key we generated earlier. For
+To do this, go to &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/&lt;/a&gt; under your account and go to the GitHub setting menu. After that, select SSH keys in the GitHub setting side menu and click
+the Add Key button. By copying the key from the local console to the clipboard&lt;/p&gt;
+&lt;p&gt;1 cat ~/.ssh/id_rsa.pub | xclip -sel clip&lt;/p&gt;
+&lt;p&gt;paste the key into the field that appears on the site.
+After that, you can create a repository on the site by selecting Repositories from the menu
+Create a repository, give it a name and make it public (public).
+To download the repository from the local directory to the server, execute the following
+commands:&lt;/p&gt;
+&lt;p&gt;1 git remote add origin
+2 ssh://git@github.com/&lt;username&gt;/&lt;reponame&gt;.git
+3 git push -u origin master&lt;/p&gt;
+&lt;p&gt;Further, on the local computer, you can perform standard procedures for working
+with git if there is a central repository.&lt;/p&gt;
+&lt;h2 id=&#34;general-information&#34;&gt;General information&lt;/h2&gt;
+&lt;p&gt;– Gitflow Workflow published and popularized by Vincent Driessen of Gitflow
+vie.
+– Gitflow Workflow involves building a strict branching model, taking into account
+project release.
+– This model is great for organizing a release-based workflow.
+– Working on the Gitflow model includes creating a separate branch for bug fixes
+in the working environment.
+– The sequence of actions when working on the Gitflow model:
+– The develop branch is created from the master branch.
+– A release branch is created from the develop branch.
+– Feature branches are created from the develop branch.
+– When work on the feature branch is completed, it is merged into the develop branch.
+– When work on a release branch is completed, it is merged into branches
+develop and master.
+– If a problem is found in master, a hotfix branch is created from master.
+– When a hotfix branch is completed, it is merged into branches
+develop and master.&lt;/p&gt;
+&lt;h2 id=&#34;software-installation&#34;&gt;Software installation&lt;/h2&gt;
+&lt;p&gt;– For Windows, the Chocolatey package manager is used. Git-flow is included
+git package.&lt;/p&gt;
+&lt;p&gt;1 choco install git&lt;/p&gt;
+&lt;p&gt;– For MacOS, use the Homebrew package manager.&lt;/p&gt;
+&lt;p&gt;1 brew install git-flow&lt;/p&gt;
+&lt;p&gt;– Linux
+– Gentoo&lt;/p&gt;
+&lt;p&gt;1 emerge dev-vcs/git-flow&lt;/p&gt;
+&lt;p&gt;– Ubuntu&lt;/p&gt;
+&lt;p&gt;1 apt-get install git-flow&lt;/p&gt;
+&lt;h2 id=&#34;work-process-with-gitflow&#34;&gt;Work process with Gitflow&lt;/h2&gt;
+&lt;h3 id=&#34;main-branches-master-and-development-branches-develop&#34;&gt;Main branches (master) and development branches (develop)&lt;/h3&gt;
+&lt;p&gt;To commit the history of the project within this process instead of a single master branch
+two branches are used. The master branch holds the official release history, while the develop branch is for merging all the features. In addition, for convenience
+it is recommended to give all commits in the master branch a version number.
+When using the git-flow extension library, you need to initialize the structure in an existing repository:&lt;/p&gt;
+&lt;p&gt;1 git flow init&lt;/p&gt;
+&lt;p&gt;For github, the Version tag prefix should be set to v.
+After that, check which branch you are on:&lt;/p&gt;
+&lt;p&gt;1 git branch&lt;/p&gt;
+&lt;h3 id=&#34;feature-branches&#34;&gt;Feature branches&lt;/h3&gt;
+&lt;p&gt;Each new feature should have its own branch, which can be
+send to the central repository for backup or sharing
+team work. Feature branches are created not on the basis of master, but on the basis of develop.
+When work on a feature is completed, the corresponding branch is merged back
+with the develop branch. Features should not be pushed directly to the master branch.
+Typically, feature branches are created from the latest develop branch.&lt;/p&gt;
+&lt;h3 id=&#34;creating-a-feature-branch&#34;&gt;Creating a feature branch&lt;/h3&gt;
+&lt;p&gt;Let&amp;rsquo;s create a new feature branch:&lt;/p&gt;
+&lt;p&gt;1 git flow feature start feature_branch&lt;/p&gt;
+&lt;p&gt;Further we work as usual&lt;/p&gt;
+&lt;h3 id=&#34;end-of-work-on-a-feature-branch&#34;&gt;End of work on a feature branch&lt;/h3&gt;
+&lt;p&gt;Upon completion of work on a feature
+merge feature_branch with develop:&lt;/p&gt;
+&lt;p&gt;1 git flow feature finish feature_branch&lt;/p&gt;
+&lt;h3 id=&#34;release-branches&#34;&gt;Release branches&lt;/h3&gt;
+&lt;p&gt;When the develop branch has enough features to release, the develop branch
+a release branch is created. Creating this branch starts the next release cycle,
+and from that moment on, new functions can no longer be added - only debugging is allowed,
+creating documentation and solving other problems. When the release preparation is completed,
+the release branch is merged into master and given a version number. After that, you need to merge with the develop branch, in which, since the creation of the release branch,
+changes occur.
+Due to the fact that a special branch is used for preparing releases, one
+a team can refine the current release while another team continues
+work on features for the next one.
+You can create a new release branch with the following command:&lt;/p&gt;
+&lt;p&gt;1 git flow release start 1.0.0&lt;/p&gt;
+&lt;p&gt;The following commands are used to complete work on the release branch:&lt;/p&gt;
+&lt;p&gt;1 git flow release finish 1.0.0&lt;/p&gt;
+&lt;h3 id=&#34;hotfix-branches&#34;&gt;Hotfix branches&lt;/h3&gt;
+&lt;p&gt;Support branches or hotfix branches are used for quick fixes
+to working releases. They are created from the master branch. This is the only thread that
+must be created directly from master. Once the fix is ​​complete,
+the branch should be merged into master and develop. The master branch should be tagged with an updated version number.
+Having a dedicated branch for fixing bugs allows the team to resolve issues without interrupting the rest of the workflow or waiting for the next cycle.
+release.
+A hotfix branch can be created with the following commands:&lt;/p&gt;
+&lt;p&gt;1 git flow hotfix start hotfix_branch&lt;/p&gt;
+&lt;p&gt;When finished, the hotfix branch is merged into master and develop:&lt;/p&gt;
+&lt;p&gt;1 git flow hotfix finish hotfix_branch&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>https://example.com/slides/example/</link>
+      <link>https://aaandrievskaya.github.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/slides/example/</guid>
+      <guid>https://aaandrievskaya.github.io/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -238,9 +422,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Example Project</title>
-      <link>https://example.com/project/example/</link>
+      <link>https://aaandrievskaya.github.io/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/example/</guid>
+      <guid>https://aaandrievskaya.github.io/project/example/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -251,9 +435,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>An example conference paper</title>
-      <link>https://example.com/publication/example/</link>
+      <link>https://aaandrievskaya.github.io/publication/example/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/example/</guid>
+      <guid>https://aaandrievskaya.github.io/publication/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -270,9 +454,9 @@ $$&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>https://example.com/admin/config.yml</link>
+      <link>https://aaandrievskaya.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/admin/config.yml</guid>
+      <guid>https://aaandrievskaya.github.io/admin/config.yml</guid>
       <description></description>
     </item>
     
