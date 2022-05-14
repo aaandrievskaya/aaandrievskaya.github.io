@@ -5,12 +5,118 @@
     <link>https://aaandrievskaya.github.io/category/demo/</link>
       <atom:link href="https://aaandrievskaya.github.io/category/demo/index.xml" rel="self" type="application/rss+xml" />
     <description>Demo</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 07 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 14 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://aaandrievskaya.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Demo</title>
       <link>https://aaandrievskaya.github.io/category/demo/</link>
     </image>
+    
+    <item>
+      <title>Holidays at home</title>
+      <link>https://aaandrievskaya.github.io/post/how-was-my-week-2/</link>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://aaandrievskaya.github.io/post/how-was-my-week-2/</guid>
+      <description>&lt;h2 id=&#34;i-couldnt-imagine-that&#34;&gt;I couldn&amp;rsquo;t imagine that&lt;/h2&gt;
+&lt;p&gt;Well, I&amp;rsquo;ll tell you everything in order.
+My ankle has already begun to heal. I was already able to walk on my own, even go outside to the store. &amp;ldquo;How happy I am,&amp;rdquo; I thought to myself.&lt;/p&gt;
+&lt;p&gt;This is how most of the week went. I really wanted to go to the parade dedicated to the Victory Day. and prst go for a walk on the May holidays, but I didn’t allow myself this, because I wasn’t completely healthy.&lt;/p&gt;
+&lt;p&gt;“The discharge is on Friday, from Monday I will finally be a full-fledged person,” I dreamed to myself. But my plans were not destined to come true, my leg began to hurt again, I again cannot afford to walk.&lt;/p&gt;
+&lt;p&gt;On Friday my doctor was very angry. He believes that I do not want to recover, so I deliberately loaded my leg and prolonged the illness. But that&amp;rsquo;s not true, I really didn&amp;rsquo;t think that I could damage the healed ligaments if I walked a little. I didn&amp;rsquo;t even get hurt&amp;hellip;&lt;/p&gt;
+&lt;p&gt;My sick leave has been extended for another 10 days, and I&amp;rsquo;m sitting at home, as if in prison. Although, perhaps this is for the best, because I had a lot of time to watch all the series and go through all the games that I left for the holidays&amp;hellip; :)&lt;/p&gt;
+&lt;h2 id=&#34;my-social-networks&#34;&gt;My social networks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://vk.com/grandryce&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;VK&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;grandryce_an&#34;&gt;&lt;strong&gt;Instagram&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Markdown language.</title>
+      <link>https://aaandrievskaya.github.io/post/markdown-language./</link>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://aaandrievskaya.github.io/post/markdown-language./</guid>
+      <description>&lt;h2 id=&#34;definition&#34;&gt;Definition&lt;/h2&gt;
+&lt;p&gt;Markdown is a simple markup language used to create rich text (such as HTML) with a text editor. It allows you to add basic formatting to text using characters known and available on all keyboards. Font size, color, and other advanced options are not available in Markdown.&lt;/p&gt;
+&lt;h2 id=&#34;markdown-syntax&#34;&gt;Markdown Syntax&lt;/h2&gt;
+&lt;p&gt;This is a quick reference to the basic elements of Markdown syntax. There is no single standard, and different versions of Markdown may differ in details. But the basic elements from the list below are supported in all standards.&lt;/p&gt;
+&lt;h2 id=&#34;text-selection&#34;&gt;Text selection&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;This text will be italicized&lt;/em&gt;
+&lt;em&gt;This text will be italic (italic)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This text will be bold&lt;/strong&gt;
+&lt;strong&gt;This text will be bold&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;You can &lt;strong&gt;insert&lt;/strong&gt; one type into another&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;titles&#34;&gt;Titles&lt;/h2&gt;
+&lt;p&gt;&amp;lsquo;# This is the largest heading, it turns into an &lt;h1&gt; tag
+&amp;lsquo;## &lt;h2&gt;
+&amp;lsquo;### &lt;h3&gt;
+&amp;lsquo;#### &lt;h4&gt;
+&amp;lsquo;##### &lt;h5&gt;
+&amp;lsquo;###### &lt;h6&gt;&lt;/p&gt;
+&lt;p&gt;In Markdown, headings are written without the symbol &#39;&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://hexlet.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://hexlet.io&lt;/a&gt; - the text of a simple link will become a clickable link automatically
+You can make any text a link:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://hexlet.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This is a Hexlet link&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;quote&#34;&gt;Quote&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;That&amp;rsquo;s a wise quote
+wise man.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;pictures&#34;&gt;Pictures&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://aaandrievskaya.github.io/assets/images/markdown/markdown.png&#34; alt=&#34;This is optional alt text&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;the-code&#34;&gt;The code&lt;/h2&gt;
+&lt;p&gt;To highlight code (or any unformatted text), special characters are used - back ticks: `&lt;/p&gt;
+&lt;p&gt;Sometimes you need to add a piece of code &lt;code&gt;function(12);&lt;/code&gt; to a regular line of text.
+And sometimes you need to insert a whole block of code:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;func&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;num&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;num&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;num&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;num&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;lists&#34;&gt;Lists&lt;/h2&gt;
+&lt;p&gt;Unnumbered list:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Paragraph
+*One more item
+&lt;ul&gt;
+&lt;li&gt;Subparagraph&lt;/li&gt;
+&lt;li&gt;Another sub-item
+Numbered list:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Item&lt;/li&gt;
+&lt;li&gt;One more point&lt;/li&gt;
+&lt;li&gt;Subparagraph&lt;/li&gt;
+&lt;li&gt;One more subparagraph
+You can use any numbers in a numbered list - it doesn&amp;rsquo;t matter. When converted to HTML or another format, the numbers will become correct and consistent (1, 2, 3, etc.).&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>There are disappointments in life</title>
