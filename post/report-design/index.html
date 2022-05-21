@@ -64,10 +64,10 @@
   
     
   
-  <meta name="description" content="We will study the ideology and application of version control tools. Master the skills of working with git." />
+  <meta name="description" content="Let&#39;s study the basic rules for formatting reports in text documents" />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://aaandrievskaya.github.io/post/version-control.-git/" />
+  <link rel="alternate" hreflang="en-us" href="https://aaandrievskaya.github.io/post/report-design/" />
 
   
   
@@ -282,7 +282,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://aaandrievskaya.github.io/post/version-control.-git/" />
+  <link rel="canonical" href="https://aaandrievskaya.github.io/post/report-design/" />
 
   
   
@@ -308,18 +308,18 @@
     <meta property="twitter:creator" content="@wowchemy" />
   
   <meta property="og:site_name" content="Academic" />
-  <meta property="og:url" content="https://aaandrievskaya.github.io/post/version-control.-git/" />
-  <meta property="og:title" content="Version management. Git | Academic" />
-  <meta property="og:description" content="We will study the ideology and application of version control tools. Master the skills of working with git." /><meta property="og:image" content="https://aaandrievskaya.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:url" content="https://aaandrievskaya.github.io/post/report-design/" />
+  <meta property="og:title" content="Report formatting | Academic" />
+  <meta property="og:description" content="Let&#39;s study the basic rules for formatting reports in text documents" /><meta property="og:image" content="https://aaandrievskaya.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://aaandrievskaya.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2022-05-07T00:00:00&#43;00:00"
+        content="2022-05-21T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2022-05-07T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-05-21T00:00:00&#43;00:00">
   
 
   
@@ -343,12 +343,12 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://aaandrievskaya.github.io/post/version-control.-git/"
+    "@id": "https://aaandrievskaya.github.io/post/report-design/"
   },
-  "headline": "Version management. Git",
+  "headline": "Report formatting",
   
-  "datePublished": "2022-05-07T00:00:00Z",
-  "dateModified": "2022-05-07T00:00:00Z",
+  "datePublished": "2022-05-21T00:00:00Z",
+  "dateModified": "2022-05-21T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -363,7 +363,7 @@
       "url": "https://aaandrievskaya.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "We will study the ideology and application of version control tools. Master the skills of working with git."
+  "description": "Let's study the basic rules for formatting reports in text documents"
 }
 </script>
 
@@ -379,11 +379,11 @@
 
 
 
-  <title>Version management. Git | Academic</title>
+  <title>Report formatting | Academic</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="97164bfe184b400c3adb26bd96db98ad" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="5211d02c9cab91c4bd509c54573bcd79" >
 
   
   
@@ -784,10 +784,10 @@
   
   
 <div class="article-container pt-3">
-  <h1>Version management. Git</h1>
+  <h1>Report formatting</h1>
 
   
-  <p class="page-subtitle">We will study the ideology and application of version control tools. Master the skills of working with git.</p>
+  <p class="page-subtitle">Let&rsquo;s study the basic rules for formatting reports in text documents</p>
   
 
   
@@ -815,7 +815,7 @@
     
       
     
-    May 7, 2022
+    May 21, 2022
   </span>
   
 
@@ -824,7 +824,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    10 min read
+    13 min read
   </span>
   
 
@@ -856,243 +856,92 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h2 id="version-control-systems-general-concepts">Version control systems. General concepts</h2>
-<p>Version control systems (VCS) are used when several people work on the same project. Usually the main project tree is stored in the local
-or a remote repository to which access is configured for project members. At
-making changes to the content of the project, the version control system allows them to
-fix, combine changes made by different project participants,
-rollback to any earlier version of the project, if required.
-Classical version control systems use a centralized model,
-assuming a single repository for storing files. Most of the version control functions are performed by a dedicated server.
-The project participant (user) before starting work through certain
-command gets the version of files it needs. After making changes, the user
-commits the new version to the repository. This does not remove previous versions.
-from the central repository and you can return to them at any time. The server can
-save not the full version of the changed files, but produce the so-called delta compression - save only changes between successive versions, which
-allows you to reduce the amount of stored data.
-Version control systems support traceability and resolution
-conflicts that may arise when several people work on one
-file. You can merge (merge) the changes made by different participants (automatically or manually), manually select the desired version, undo the changes altogether
-or lock files for modification. Depending on the settings, blocking is not
-allows other users to get a working copy or prevents modification
-working copy of the file by means of the OS file system, thus providing
-privileged access to only one user working with the file.
-Version control systems can also provide additional, more flexible
-functionality. For example, they can support working with multiple versions of the same file, keeping a common history of changes up to the branch point.
-versions and each branch&rsquo;s own change histories. In addition, it is usually available
-information about which of the participants, when and what changes were made. Usually this
-kind of information is stored in the change log, access to which can be restricted.
-Unlike classical ones, in distributed version control systems, the central
-the repository is optional.
-Among the classic VCS, CVS, Subversion are the most famous, and among the distributed ones - Git, Bazaar, Mercurial. The principles of their work are similar, they differ mainly
-the syntax of the commands used in the work.</p>
-<h2 id="basic-git-commands">Basic git commands</h2>
-<p>The most commonly used git commands are:
-– creating the main repository tree:</p>
-<p>1 git init</p>
-<p>– receiving updates (changes) of the current tree from the central repository:</p>
-<p>1 git pull</p>
-<p>– sending all the changes made to the local tree to the central repository:</p>
-<p>1 git push</p>
-<p>– view the list of changed files in the current directory:</p>
-<p>1 git status</p>
-<p>– view current changes:</p>
-<p>1 git diff</p>
-<p>– saving current changes:
-– add all modified and/or created files and/or directories:</p>
-<p>1 git add .</p>
-<p>– add specific modified and/or created files and/or directories:</p>
-<p>1 git add filenames</p>
-<p>– delete a file and/or directory from the repository index (in this case, the file and/or directory
-remains in the local directory):</p>
-<p>1 git rm filenames</p>
-<p>– saving the added changes:
-– save all added changes and all modified files:</p>
-<p>1 git commit -am &lsquo;Commit description&rsquo;</p>
-<ul>
-<li>save the added changes with a comment through the built-in
-editor:</li>
-</ul>
-<p>1 git commit</p>
-<p>– creating a new branch based on the current one:</p>
-<p>1 git checkout -b branchname</p>
-<ul>
-<li>switch to some branch:</li>
-</ul>
-<p>1 git checkout branch_name</p>
-<p>(when you switch to a branch that is not yet in the local repository, it will be
-created and linked to the remote)
-– pushing changes of a specific branch to the central repository:</p>
-<p>1 git push origin branchname</p>
-<p>– merge the branch with the current tree:</p>
-<p>1 git merge &ndash;no-ff branchname</p>
-<ul>
-<li>deleting a branch:
-– deleting a local branch already merged with the main tree:</li>
-</ul>
-<p>1 git branch -d branchname</p>
-<ul>
-<li>forced deletion of the local branch:</li>
-</ul>
-<p>1 git branch -D branchname</p>
-<p>– deleting a branch from the central repository:</p>
-<p>1 git push origin :branchname</p>
-<h2 id="standard-operating-procedures-for-a-central-repository">Standard Operating Procedures for a Central Repository</h2>
-<p>The work of the user with his branch begins with checking and receiving changes
-from the central repository (at the same time, to the local tree before starting this procedure
-should not be changed):</p>
-<p>1 git checkout master
-2 git-pull
-3 git checkout -b branchname</p>
-<p>You can then make changes in the local tree and/or branch.
-After the completion of making some change to the files and / or directories of the project
-you need to place them in the central repository. To do this, you need to check,
-which files have changed so far:</p>
-<p>1 git status</p>
-<p>and, if necessary, delete unnecessary files that we do not want to send to the central repository.
-Then it is useful to review the text of the changes for compliance with the rules for maintaining clean commits:</p>
-<p>1 git diff</p>
-<p>If some files should not be included in the commit, then we mark only those files that
-whose changes you want to save. To do this, use the commands add and/or
-deletion with the necessary options:</p>
-<p>1 git add &hellip;
-2 git rm &hellip;</p>
-<p>If you want to save all changes in the current directory, then use:</p>
-<p>1 git add .</p>
-<p>Then we save the changes, explaining what was done:</p>
-<p>1 git commit -am &ldquo;Some commit message&rdquo;</p>
-<p>and send it to the central repository:</p>
-<p>1 git push origin branchname
-or
-1 git push</p>
-<h2 id="working-with-a-local-repository">Working with a local repository</h2>
-<p>Let&rsquo;s create a local repository.
-First, let&rsquo;s make a preliminary configuration by specifying the name and email of the owner of the repository:</p>
-<p>1 git config &ndash;global user.name &ldquo;FirstName LastName&rdquo;
-2 git config &ndash;global user.email &ldquo;work@mail&rdquo;</p>
-<p>and setting utf-8 in git output:</p>
-<p>1 git config &ndash;global quotepath false</p>
-<p>To initialize a local repository located, for example, in a directory
-~/tutorial must be typed on the command line:</p>
-<p>1 cd
-2 mkdir tutorial
-3 cd tutorial
-4 git init</p>
-<p>After that, a .git directory will appear in the tutorial directory, in which it will be stored
-change history.
-Let&rsquo;s create a test text file hello.txt and add it to the local repository:</p>
-<p>1 echo &lsquo;hello world&rsquo; &gt; hello.txt
-2 git add hello.txt
-3 git commit -am &lsquo;New file&rsquo;</p>
-<p>Let&rsquo;s use the status command to view the changes in the working directory since the last revision:</p>
-<p>1 git status</p>
-<p>While working on a project, one way or another, files can be created that are not
-needs to be added to the repository later. For example, temporary files created by editors or object files created by compilers. Can prescribe templates of file types ignored when adding to the repository in the file .gitignore with services. To do this, you first need to get a list of available
-templates:</p>
-<p>curl -L -s <a href="https://www.gitignore.io/api/list" target="_blank" rel="noopener">https://www.gitignore.io/api/list</a></p>
-<p>Then download the template, for example, for C and C++</p>
-<p>curl -L -s <a href="https://www.gitignore.io/api/c" target="_blank" rel="noopener">https://www.gitignore.io/api/c</a> &raquo; .gitignore
-curl -L -s <a href="https://www.gitignore.io/api/c&#43;&#43;" target="_blank" rel="noopener">https://www.gitignore.io/api/c++</a> &raquo; .gitignore</p>
-<h2 id="working-with-the-repository-server">Working with the repository server</h2>
-<p>For subsequent user identification on the repository server, it is necessary
-generate a key pair (private and public):</p>
-<p>1 ssh-keygen -C &ldquo;First Name Last Name <a href="mailto:work@mail">work@mail</a>&rdquo;</p>
-<p>The keys are stored in the ~/.ssh/ directory.
-There are several repository servers available with the option of free
-data placement. For example, <a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a>.
-To work with it, you must first create an account on the website <a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a>. Then you need to upload the public key we generated earlier. For
-To do this, go to <a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a> under your account and go to the GitHub setting menu. After that, select SSH keys in the GitHub setting side menu and click
-the Add Key button. By copying the key from the local console to the clipboard</p>
-<p>1 cat ~/.ssh/id_rsa.pub | xclip -sel clip</p>
-<p>paste the key into the field that appears on the site.
-After that, you can create a repository on the site by selecting Repositories from the menu
-Create a repository, give it a name and make it public (public).
-To download the repository from the local directory to the server, execute the following
-commands:</p>
-<p>1 git remote add origin
-2 ssh://git@github.com/<username>/<reponame>.git
-3 git push -u origin master</p>
-<p>Further, on the local computer, you can perform standard procedures for working
-with git if there is a central repository.</p>
-<h2 id="general-information">General information</h2>
-<p>– Gitflow Workflow published and popularized by Vincent Driessen of Gitflow
-vie.
-– Gitflow Workflow involves building a strict branching model, taking into account
-project release.
-– This model is great for organizing a release-based workflow.
-– Working on the Gitflow model includes creating a separate branch for bug fixes
-in the working environment.
-– The sequence of actions when working on the Gitflow model:
-– The develop branch is created from the master branch.
-– A release branch is created from the develop branch.
-– Feature branches are created from the develop branch.
-– When work on the feature branch is completed, it is merged into the develop branch.
-– When work on a release branch is completed, it is merged into branches
-develop and master.
-– If a problem is found in master, a hotfix branch is created from master.
-– When a hotfix branch is completed, it is merged into branches
-develop and master.</p>
-<h2 id="software-installation">Software installation</h2>
-<p>– For Windows, the Chocolatey package manager is used. Git-flow is included
-git package.</p>
-<p>1 choco install git</p>
-<p>– For MacOS, use the Homebrew package manager.</p>
-<p>1 brew install git-flow</p>
-<p>– Linux
-– Gentoo</p>
-<p>1 emerge dev-vcs/git-flow</p>
-<p>– Ubuntu</p>
-<p>1 apt-get install git-flow</p>
-<h2 id="work-process-with-gitflow">Work process with Gitflow</h2>
-<h3 id="main-branches-master-and-development-branches-develop">Main branches (master) and development branches (develop)</h3>
-<p>To commit the history of the project within this process instead of a single master branch
-two branches are used. The master branch holds the official release history, while the develop branch is for merging all the features. In addition, for convenience
-it is recommended to give all commits in the master branch a version number.
-When using the git-flow extension library, you need to initialize the structure in an existing repository:</p>
-<p>1 git flow init</p>
-<p>For github, the Version tag prefix should be set to v.
-After that, check which branch you are on:</p>
-<p>1 git branch</p>
-<h3 id="feature-branches">Feature branches</h3>
-<p>Each new feature should have its own branch, which can be
-send to the central repository for backup or sharing
-team work. Feature branches are created not on the basis of master, but on the basis of develop.
-When work on a feature is completed, the corresponding branch is merged back
-with the develop branch. Features should not be pushed directly to the master branch.
-Typically, feature branches are created from the latest develop branch.</p>
-<h3 id="creating-a-feature-branch">Creating a feature branch</h3>
-<p>Let&rsquo;s create a new feature branch:</p>
-<p>1 git flow feature start feature_branch</p>
-<p>Further we work as usual</p>
-<h3 id="end-of-work-on-a-feature-branch">End of work on a feature branch</h3>
-<p>Upon completion of work on a feature
-merge feature_branch with develop:</p>
-<p>1 git flow feature finish feature_branch</p>
-<h3 id="release-branches">Release branches</h3>
-<p>When the develop branch has enough features to release, the develop branch
-a release branch is created. Creating this branch starts the next release cycle,
-and from that moment on, new functions can no longer be added - only debugging is allowed,
-creating documentation and solving other problems. When the release preparation is completed,
-the release branch is merged into master and given a version number. After that, you need to merge with the develop branch, in which, since the creation of the release branch,
-changes occur.
-Due to the fact that a special branch is used for preparing releases, one
-a team can refine the current release while another team continues
-work on features for the next one.
-You can create a new release branch with the following command:</p>
-<p>1 git flow release start 1.0.0</p>
-<p>The following commands are used to complete work on the release branch:</p>
-<p>1 git flow release finish 1.0.0</p>
-<h3 id="hotfix-branches">Hotfix branches</h3>
-<p>Support branches or hotfix branches are used for quick fixes
-to working releases. They are created from the master branch. This is the only thread that
-must be created directly from master. Once the fix is ​​complete,
-the branch should be merged into master and develop. The master branch should be tagged with an updated version number.
-Having a dedicated branch for fixing bugs allows the team to resolve issues without interrupting the rest of the workflow or waiting for the next cycle.
-release.
-A hotfix branch can be created with the following commands:</p>
-<p>1 git flow hotfix start hotfix_branch</p>
-<p>When finished, the hotfix branch is merged into master and develop:</p>
-<p>1 git flow hotfix finish hotfix_branch</p>
+      <h2 id="technical-rules">Technical rules</h2>
+<p>Font size - at least 12 pt.
+Font - Times New Roman. after one and a half intervals.
+The text of the report should be printed with the following margins:
+left - 30 mm,
+right - 15 mm,
+top and bottom - 20 mm.
+The paragraph indent should be the same throughout the text of the report and equal to 1.25 cm.
+Page numbering in Arabic numerals through (including appendices), in the center at the bottom without a dot. A special header for the title page (no number).
+Headings of structural elements are placed in the middle of the line without a dot at the end and are printed in CAPITAL LETTERS without underlining. (SUMMARY, INTRODUCTION, MAIN PART, etc.)
+Each structural element and each section of the body of the report starts on a new page.
+The main part of the report should be divided into sections, subsections and paragraphs. Sections and subsections of the report should have headings. Headings of sections and subsections of the main part of the report should begin with a paragraph indent and placed after the serial number, printed with a CAPITAL LETTER, bold, not underlined, without a dot at the end. Paragraphs and subparagraphs can only have a serial number without a heading, starting with a paragraph indent.</p>
+<p>##Sample for numbering section and subsection headings</p>
+<p><strong>3 PRINCIPLES, METHODS AND RESULTS OF THE DEVELOPMENT AND MAINTENANCE OF VINITI CLASSIFICATION SYSTEMS</strong>
+<strong>3.1 RUBRICATOR VINITI</strong>
+<strong>3.1.1 STRUCTURE AND FUNCTIONS OF THE RUBRICATOR</strong>
+<strong>3.1.2 RELATIONSHIP OF THE RUBRICATOR OF THE VINITIA GRNTI</strong>
+<strong>3.1.3 THE PLACE OF THE RUBRICATOR OF THE INDUSTRY OF KNOWLEDGE IN THE VINITI RUBRICATION SYSTEM</strong></p>
+<h2 id="structural-elements-of-the-report">Structural elements of the report</h2>
+<p>• TITLE SHEET
+• LIST OF PERFORMERS (if the report is made by one executor, his position, academic degree, academic title, last name and initials should be indicated on the title page of the report. In this case, the structural element of the report &ldquo;LIST OF PERFORMERS&rdquo; is not drawn up)
+• CONTENT
+• TERMS AND DEFINITIONS
+• LIST OF ABBREVIATIONS AND SYMBOLS
+• INTRODUCTION
+• MAIN PART OF THE REPORT
+• CONCLUSION
+• LIST OF USED SOURCES
+• APPENDIX</p>
+<h2 id="introduction">Introduction</h2>
+<p>The introduction is the prologue of the entire study, it presents its model. Here the entire scientific apparatus is set out, which guides the researcher, performing search work. On its basis, the supervisor analyzes the quality of the performance of the essay, term paper or thesis and evaluates: how deeply the relevance of the topic is realized and understood, whether the goal has been achieved, whether the research methods have been chosen correctly and whether they have been used correctly, etc.</p>
+<p>The composition of the Introduction is a description of the scientific apparatus, which depends on what kind of work is being done. If an abstract is being written, then the Introduction will describe the relevance of the topic, the purpose of the abstract, the subject and methods of research. If this is a term paper, then the Introduction, in addition to those components that are included in the abstract, will also include a description of the object and objectives of the study. The thesis describes the entire scientific apparatus. So the student, from work to work, gradually masters the technology of designing scientific research in forms accessible to him.</p>
+<p>The volume of the Introduction is approximately 1/10 of the entire volume of the work, that is, the specific text of the abstract, term paper or thesis. Place of Introduction - it is located immediately after the Table of Contents before the main part.</p>
+<p>Requirements for writing an Introduction:</p>
+<p>a) Introduction is printed on separate pages;</p>
+<p>b) it is not numbered either in the Table of Contents or in the text, but goes as an independent part of the work;</p>
+<p>c) all components of the scientific apparatus are highlighted in type or underlined;</p>
+<p>d) each component is written from a new line.</p>
+<p>For example:</p>
+<p>The relevance of the study is determined by the fact that &hellip;;</p>
+<p>The purpose of the study is to develop a set of methods &hellip;;</p>
+<p>The subject of the study is the methods of educating observation&hellip;</p>
+<p>When writing the Introduction, we recommend paying special attention to the relevance of the research topic. This is, in fact, a patent research work to find a state or regional order for your topic, to determine the place of the topic in the scientific world, in relation to practice.</p>
+<p>Be vigilant - reading the Introduction begins the evaluation of your work. Everyone reads the introduction, especially opponents. By its quality, they judge all the work, the level of professional training, responsibility, the ability to design their work and carry it out thoughtfully, and many other qualities of a specialist.</p>
+<h2 id="the-main-part">The main part</h2>
+<p>&ldquo;The main part&rdquo; is the conditional name of the description of the entire study, that is, the substantive part of the abstract, term paper or thesis. This is what is being built on the basis of the designed scientific apparatus. Here everything should be subordinated to the achievement of the goal of transforming the subject of research by the methods you have chosen. Everything that was designed and described in the Introduction begins to &ldquo;work&rdquo; here.</p>
+<p>To write the main part, a text plan is drawn up as a list of the main provisions to be disclosed. Any plan of written text consists of chapters, paragraphs and subparagraphs. Their number depends on the amount of material and the nature of the text, the characteristics of the academic discipline, within and on the basis of which the work is performed. The general requirement is that they be proportional to each other in terms of volume and degree of complexity of the content. In addition, the number of paragraphs in chapters and subparagraphs in paragraphs must certainly be at least two. A chapter cannot consist of one paragraph, and a paragraph of one subparagraph.</p>
+<p>The titles (titles) of chapters, paragraphs and subparagraphs may not coincide with each other or with the topic. The words &ldquo;Main part&rdquo; are not included in any of the headings, since this is the conditional name of the entire text according to its purpose in the work. The titles of all chapters, paragraphs and subparagraphs are constructed meaningfully, reflecting the ideas disclosed in them. Their purpose is to direct the attention of both the writer and the reader to a specific idea, specific material.</p>
+<p>The construction of the main part of the abstract depends on its volume, content features and the goal. Most often, the abstract has no chapters, but only paragraphs without further division into subparagraphs. The abstract may not have any division into parts at all, but be performed as a holistic work, but with the internal logic of presenting the content. The paragraphs highlighted in the abstract do not have a common heading, such for them is the topic of the abstract, which is on the title page.</p>
+<p>The construction of the main part of the course work in more detail than the abstract. It contains at least two chapters. The chapters are divided into paragraphs. Subparagraphs are almost never used here. Each chapter has its own meaningful title, as does each paragraph. If the content of the chapters cannot be divided into paragraphs, then the chapters are simplified to paragraphs, that is, they are not introduced at all. As a rule, term papers are divided into two chapters - theoretical and empirical, devoted either to generalization of work experience or a small experiment. It is possible to write a term paper only on theoretical or only on empirical material. It depends on the topic, on the goals and objectives, as well as on the supervisor. Recall that the theoretical part of the work cannot bear such names as &ldquo;Main Part&rdquo;, &ldquo;Theoretical Part&rdquo; or &ldquo;Literature Review&rdquo;. Its headings are formulated in a meaningful, problematic way in accordance with a specific topic and methods of working on a theory.</p>
+<p>The construction of the main part of the thesis is even more complex. The thesis work may consist of more chapters, for example, four. The first chapter, as a rule, is devoted to theoretical issues, the second - to the description of the experiment program, the third - to conducting the experiment and discussing its results, the fourth - to the development of methodological recommendations. A combination of the second and third chapters is possible. Perhaps the absence of the fourth chapter. Everything depends again on the characteristics of the topic, goals and objectives, the chosen methods and recommendations of the supervisor.</p>
+<p>In the thesis work, each chapter ends with a special section that does not have its own numbering, namely - Conclusions on the chapter. These conclusions summarize the material presented in the paragraphs of the chapter and allow one to obtain new conclusions that are different from those already known in science, or to confirm them on new research material. Chapter conclusions are a sequence of statements consisting of premises and previously proven statements. This respects the logical law of sufficient reason, according to which every judgment must be justified by others, the truth of which has been proven by you or someone else. Chapter inferences can be drawn inductively and deductively. Requirements for conclusions by chapters: consistency, compliance with the content of the chapter and novelty.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Each study has a Conclusion as an epilogue of the work, as its final part. The purpose of the Conclusion is to show that the goal set for the study has been achieved, and the hypothesis has been proven.</p>
+<p>Types of Conclusion: summary, conclusions and conclusion itself. A summary is a brief description of the work done, performed as a list of what has been done and conclusions by chapter. Most often used in referencing. Conclusions are already new judgments, or rather conclusions made on the material of theory or empiricism. In the conclusions, theoretical or empirical material serves only as a basis for new ideas, judgments, provisions, recommendations. Most often, conclusions are drawn where the authors of the papers have their own judgments and apply various methods of analyzing scientific papers and practice. The conclusion is a complex form of completing the study, which includes both a summary and conclusions. In addition, the Conclusion includes an assessment of the theoretical and practical significance of the work, which may go beyond the topic.</p>
+<p>The choice of the type of Conclusion depends on:</p>
+<p>the complexity of the work (for an abstract, a summary is enough, for a term paper - conclusions, and for a diploma - a conclusion);
+on the nature of the content of the work, that is, on what methods of working with it were used: the more complex the methods and the less compiling work, the more expedient it is to choose conclusions and even a conclusion;
+the author&rsquo;s possession of the technology for performing these types of completion of his research.
+The construction of the Conclusion depends on the selected view. In its most complete form, it is built approximately according to this plan:</p>
+<p>statement about the achievement of the purpose of the study and evidence;
+hypotheses with brief confirmations;
+summary as the shortest overview of the work done;
+new provisions (ideas, judgments, assessments) obtained as a result of the study;
+determination of the scientific novelty of the work done;
+determination of the practical significance of the work done.
+According to the style of writing The conclusion should be concise, clear, logical, evidence-based, convincing. It must be remembered that both the supervisor and opponents who give feedback on the work are most attentive to it, as well as to the Introduction.</p>
+<p>The volume of the Conclusion is determined by the nature of the work. But there is a conditional standard. Like the Introduction, it is given no more than 1/10 of the entire text.</p>
+<h2 id="list-of-sources-used">List of sources used</h2>
+<p>The list of references completes the description of the study. Often it is called the Bibliography, which is not correct. The list of references follows the Conclusion and is drawn up from a new page.</p>
+<p>The amount of literature included in the List depends on the form of research work. For an abstract, the standard is at least 5 works, for a term paper - at least 10, for a thesis - at least 25.</p>
+<p>The literature included in the List is published theoretical sources, legal documents, as well as archival materials. Handwritten materials with the indication &ldquo;Manuscript&rdquo; can be entered here. Not only cited literature is included, but also read literature that is directly related to the topic under study. All authors and their works indicated in the text should be included in this list, especially cited works.</p>
+<p>The List of References should include works on the study of your topic by teachers, psychologists, sociologists, historians, philosophers and other specialists working at your university. You are called to contribute to the development of science in your alma mater.</p>
+<p>All literature is drawn up strictly in alphabetical order, according to the first letter of the author&rsquo;s last name or the first letter of the title of a document or collective work that does not have a strict authorship. Each work is assigned its own serial number, which is then referenced in the text of the work when citing.</p>
+<p>Each source included in the List of References has a specific design. In addition to the author&rsquo;s name and the title of the work, the output data is indicated. They include: the place of publication, the name of the publisher or organization that published the work, and the year of publication. In addition, the number of pages in the text is indicated.</p>
+<p>Literature is drawn up strictly taking into account the requirements of GOST.</p>
+<h2 id="appendix">Appendix</h2>
+<p>The appendix is ​​a material that clarifies, illustrates, confirms certain provisions of your study and is not included in the text of the main part. It has a complementary meaning. The application, as a rule, is used in theses and rarely in abstracts and term papers, its composition is determined by the researcher&rsquo;s intention.</p>
+<p>Types of Applications: copies of plans and programs, photographs, texts of tests and questionnaires, samples of children&rsquo;s drawings and essays, reports, reports, documents or extracts from them, charters, regulations, etc.</p>
+<p>As a rule, Applications are made only if there are at least two of them. For one Application, it is not entered. Each Appendix cannot be more than five pages long.</p>
+<p>Only those materials that are referenced in the Main Text are included in the Appendix. Communication of the main text and the Appendix is ​​obligatory.</p>
+<p>Each Appendix has its own number (without indicating the sign No.), is placed at the end of the work with the continuation of the general page numbering. Applications are arranged in order of reference to them in the text of the work (see any Appendix of this book).</p>
+<p>Each Application is issued separately. In the right corner of the first page it is written: &ldquo;Appendix 1&rdquo;, &ldquo;Appendix 2&rdquo;, etc.</p>
+<p>Statistical tables, diagrams of experiments are not included in the Appendix, they are included directly in the text.</p>
+<p>Application material is not included in the scope of work. Each Appendix is ​​entered in the Table of Contents under its own number and with its own name.</p>
+<p>The total volume of the Appendix should not exceed one third of the volume of the entire text of the work.</p>
 
     </div>
 
@@ -1105,7 +954,7 @@ A hotfix branch can be created with the following commands:</p>
   
   <a class="badge badge-light" href="/tag/work/">Work</a>
   
-  <a class="badge badge-light" href="/tag/git/">Git</a>
+  <a class="badge badge-light" href="/tag/reports/">Reports</a>
   
 </div>
 
@@ -1122,7 +971,7 @@ A hotfix branch can be created with the following commands:</p>
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://aaandrievskaya.github.io/post/version-control.-git/&amp;text=Version%20management.%20Git" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://aaandrievskaya.github.io/post/report-design/&amp;text=Report%20formatting" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1135,7 +984,7 @@ A hotfix branch can be created with the following commands:</p>
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://aaandrievskaya.github.io/post/version-control.-git/&amp;t=Version%20management.%20Git" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://aaandrievskaya.github.io/post/report-design/&amp;t=Report%20formatting" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1148,7 +997,7 @@ A hotfix branch can be created with the following commands:</p>
       
       
       <li>
-        <a href="mailto:?subject=Version%20management.%20Git&amp;body=https://aaandrievskaya.github.io/post/version-control.-git/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Report%20formatting&amp;body=https://aaandrievskaya.github.io/post/report-design/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1161,7 +1010,7 @@ A hotfix branch can be created with the following commands:</p>
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://aaandrievskaya.github.io/post/version-control.-git/&amp;title=Version%20management.%20Git" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https://aaandrievskaya.github.io/post/report-design/&amp;title=Report%20formatting" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1174,7 +1023,7 @@ A hotfix branch can be created with the following commands:</p>
       
       
       <li>
-        <a href="whatsapp://send?text=Version%20management.%20Git%20https://aaandrievskaya.github.io/post/version-control.-git/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Report%20formatting%20https://aaandrievskaya.github.io/post/report-design/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1187,7 +1036,7 @@ A hotfix branch can be created with the following commands:</p>
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://aaandrievskaya.github.io/post/version-control.-git/&amp;title=Version%20management.%20Git" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://aaandrievskaya.github.io/post/report-design/&amp;title=Report%20formatting" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
