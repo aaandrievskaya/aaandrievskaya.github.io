@@ -1,0 +1,1462 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.5.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Andrievskaya Anastasiya Andreevna" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Consider the types of password authentication systems for users and identify their differences" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://aaandrievskaya.github.io/project/project-1/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.1052fab8b7700a3dc49ee23683097d66.css" />
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://aaandrievskaya.github.io/project/project-1/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@wowchemy" />
+    <meta property="twitter:creator" content="@wowchemy" />
+  
+  <meta property="og:site_name" content="Academic" />
+  <meta property="og:url" content="https://aaandrievskaya.github.io/project/project-1/" />
+  <meta property="og:title" content="User authentication scheme using logins and passwords | Academic" />
+  <meta property="og:description" content="Consider the types of password authentication systems for users and identify their differences" /><meta property="og:image" content="https://aaandrievskaya.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://aaandrievskaya.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2022-05-28T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2022-05-28T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aaandrievskaya.github.io/project/project-1/"
+  },
+  "headline": "User authentication scheme using logins and passwords",
+  
+  "datePublished": "2022-05-28T00:00:00Z",
+  "dateModified": "2022-05-28T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Andrievskaya Anastasiya Andreevna"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Academic",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://aaandrievskaya.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Consider the types of password authentication systems for users and identify their differences"
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>User authentication scheme using logins and passwords | Academic</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="6cc334d58a32c77815016d0b81fe74dd" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.2ed908358299dd7ab553faae685c746c.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Academic</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Academic</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>User authentication scheme using logins and passwords</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    May 28, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/slides/example/" target="_blank">
+    Slides
+  </a>
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://github.com/aaandrievskaya" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>Follow</a>
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h2 id="introduction">Introduction</h2>
+<p>The problem of the reliability of personal identification in modern conditions worries many authors, since the number of participants in electronic interaction in the modern world is steadily growing. Authentication is the basis for building a trusting relationship between the parties when they interact through open communication channels, in connection with which the role of authentication of participants becomes significant.</p>
+<p>Authentication is the process of determining whether someone (or something) is who he or she is pretending to be. In the context of IT processes, this means that the credentials provided by the person requesting access to the resource are compared with the data held by the resource. If the information matches, the user is granted access. As a rule, authentication processes are associated with the following tasks: to provide authorized access, to establish trust relationships during remote access, to establish (identify) the identity of the owner of an electronic signature, etc.</p>
+<h2 id="1-password-authentication-prototypes">1. Password authentication prototypes</h2>
+<h3 id="11-voice-passwords">1.1 Voice passwords</h3>
+<p>Speech passwords have found their application due to the absence of any additional means in establishing the belonging of a certain person to a specific group of people.
+For example, in the medieval Spanish army there were cases when, at nightfall, nervous soldiers accidentally killed one of their own, mistaking them for an enemy. The military leaders soon devised a remedy for this problem: every day they chose a word that, in the form of a secret signal, would serve so that the soldiers of the same group could recognize each other.</p>
+<p>This system played an indispensable role during the Civil War and the Great Patriotic War, as evidenced by numerous historical documents. The password and recall were set, among other things, for conducting telegraph negotiations along the line of military communications.</p>
+<p>Passwords and reviews are often used in undercover intelligence. They are predetermined phrases by which you can recognize a scout or agent. Here, the verbal password is proof that the scout (agent) was confronted by exactly the person with whom the other could meet and work.</p>
+<p>The password and the answer to it can be real. In this case, those who meet may have with them objects predetermined and known only to them, for example, combs, coins, banknotes, which may be the same or, on the contrary, different. In this case, the real password can be independent or supplement the verbal password.</p>
+<h3 id="12-castles">1.2 Castles</h3>
+<p>A lock is a mechanical, electrical or electronic device that limits the possibility of unauthorized use of something.</p>
+<p>The idea of ​​locks and keys to them arose with the advent of private property, when people began to think about how to protect it from outside encroachment.</p>
+<p>The presence of a shared key made the locks less secure, as it reduced the degree of security. Special combination locks, opened by typing letters or numbers on rotating disks, appeared in Europe in the 17th century. The use of the lock code was the prototype for the introduction of the modern password, and the selection of the code was difficult. So, of interest is the Eureka combination lock, patented in the USA in 1862, in which, due to the large number of different letters and numbers, the number of possible combinations on the lock was 1,073,741,824.</p>
+<p>Drawing an analogy between a lock code and a computer password, the former has advantages and disadvantages similar to a modern password. The advantages include the absence of a key that can be lost and which an attacker can copy in the absence of the owner; the ability to quickly change the code. The disadvantages are as follows: the code can be forgotten, but writing it down increases the likelihood that an outsider will recognize the code; the code can be peeped when entering; often dates of birth, addresses, well-known numbers are used as codes, which simplifies the selection of the code.</p>
+<p>A variation of the combination lock is an electronic lock. An electronic lock is a high-tech device controlled by microprocessors and used to lock doors. In the presence of an electronic lock, a decision on the access of persons to the premises is made on the basis of signals from various sensors: magnetic card readers, barcodes, contact memory sensors, biometric sensors, dial pads, combinatorial fluorescent molecular sensors, remote control, etc.
+In the future, electronic locks could compete with molecular locks, which have a sensor that responds not to a set of electrical signals from a keyboard or a reader, but to a set of chemicals.</p>
+<h2 id="2-password-authentication">2. Password authentication</h2>
+<p>The advent of computers led to the need to protect the information stored in them, as well as the creation of access control mechanisms to it, the main component of which was user authentication, one of which is password.
+Fernando Corbato, a professor at the Massachusetts Institute of Technology, is considered the inventor of computer passwords. The use of passwords was required, in modern terms, to differentiate access of several users to the files of one computer. Putting a password on each individual user as a lock seemed like a very simple solution. Since there was no earlier documented use of a security system when using a computer, it is Corbato who is credited with being the first to put such a system on a computer. With the advent of personal computers in the 1980s. the password has become an integral part of business life, and over time, everyday life. It should be noted that the same time is considered the earliest when password theft was documented. These early passwords were simple and easy to save, as complex hacker networks and password cracking programs did not yet exist.
+Password authentication is currently the most common method of protecting information. Authentication can take place using one-time and reusable passwords. A reusable password is set by the user, and the system stores it in the database. It is the same for every session. These include PIN codes, words, numbers, pattern keys. One-time passwords - different for each session. It can be an SMS with a code.</p>
+<h3 id="21-reusable-password-authentication">2.1 Reusable password authentication</h3>
+<p>One of the ways to authenticate in a computer system is to enter your user ID, colloquially called &ldquo;login&rdquo; (English login - username, account), and a password - some confidential information. A reliable (reference) login-password pair is stored in a special database (Fig. 1.).
+Simple authentication has the following general algorithm:</p>
+<ol>
+<li>The subject requests access to the system and enters a personal ID and password.</li>
+<li>The unique data entered is sent to the authentication server, where it is compared with the reference data.</li>
+<li>If the data matches the reference, authentication is considered successful, if there is a difference, the subject moves to the 1st step
+The password entered by the subject can be transmitted over the network in two ways:
+• Unencrypted, in the clear, based on the Password Authentication Protocol (PAP)
+• Using SSL or TLS encryption. In this case, the unique data entered by the subject is transmitted securely over the network.</li>
+</ol>
+<h3 id="22-one-time-password-authentication">2.2 One Time Password Authentication</h3>
+<p>Having once obtained the subject&rsquo;s reusable password, the attacker has permanent access to the compromised confidential information. This problem is solved by using one-time passwords (OTP - One Time Password). The essence of this method is that the password is valid for only one login, with each subsequent access request, a new password is required. The authentication mechanism for one-time passwords can be implemented both in hardware (Fig. 2.) and in software.
+Technologies for using one-time passwords can be divided into:
+• Use of a pseudo-random number generator, common for the subject and the system
+• Use of timestamps in conjunction with a universal time system
+• Use of a database of random passwords, common for the subject and for the system
+The first method uses a pseudo-random number generator with the same value for the subject and for the system. A subject-generated password can be passed to the system on consecutive use of a one-way function or on each new request based on unique information from a previous request.
+The second method uses timestamps. An example of such technology is SecurID. It is based on the use of hardware keys and time synchronization. Authentication is based on the generation of random numbers at certain time intervals. The unique secret key is stored only in the system base and in the subject&rsquo;s hardware device. When the subject requests access to the system, he is prompted to enter, in addition to the PIN from his account, a randomly generated number displayed at that moment on the hardware device. The system matches the entered PIN and the subject&rsquo;s secret key from its database and generates a random number based on the parameters of the secret key from the database and the current time. Next, the identity of the generated number and the number entered by the subject is checked. It also checks the time when the number was generated on the server and on the user&rsquo;s hardware device.
+The third method is based on a single database of passwords for the subject and the system and high-precision synchronization between them. In this case, each password from the set can be used only once. Due to this, even if an attacker intercepts the password used by the subject, it will no longer be valid.
+Compared to using reusable passwords, one-time passwords provide a higher degree of security.</p>
+<h2 id="3-system-security">3. System security</h2>
+<p>The use of reusable passwords has a number of significant disadvantages. Firstly, the master password itself or its hashed image is stored on the authentication server. Often, the password is stored without cryptographic transformations, in system files. Having gained access to them, an attacker can easily get to confidential information. Secondly, the subject is forced to remember (or write down) his reusable password. An attacker can get it by simply applying the skills of social engineering, without any technical means. Thirdly, the security of the system is greatly reduced in the case when the subject chooses his own password. Often it turns out to be some word or combination of words present in the dictionary. In GOST 28147-89, the key length is 256 bits (32 bytes). When using a pseudo-random number generator, the key has good statistical properties. The password, which is, for example, a word from a dictionary, can be reduced to a pseudo-random number 16 bits long, which is 16 times shorter than the GOST key. Given enough time, an attacker can crack the password with a simple brute-force attack. The solution to this problem is the use of random passwords or a time limit on the validity of the subject&rsquo;s password, after which the password must be changed.</p>
+<h3 id="31-one-way-functions">3.1 One-way functions</h3>
+<p>From the point of view of the best security when storing and transmitting passwords, one-way functions should be used. Typically, cryptographically strong hash functions are used for these purposes. In this case, the server stores only the image of the user&rsquo;s password that he entered earlier. Having received the password and having done its hash transformation, the system compares the result with the reference image stored in it. If they are identical, the passwords are the same. For an attacker who has gained access to the image, it is almost impossible to calculate the password itself, since there is no way to “decode” the password. Finding its original appearance in the image is possible only by enumeration.</p>
+<h3 id="32-multi-factor-authentication">3.2 Multi-factor authentication</h3>
+<p>Multi-Factor Authentication is a method in which a user needs to prove by two different factors that they are the owner of the account or that they are logging in in order to access an account or confirm a transaction with funds.
+Among the types of multi-factor authentication, the most common two-factor authentication (2FA - 2-factor authentication) is a method in which the user must provide two different types of authentication data to gain access, for example, something known only to the user (password) and something inherent only user (fingerprint).
+Access to resources through entering a login and password is one-factor authentication, since only one type of authentication data is used to enter - a password known to the user.</p>
+<h3 id="33-one-factor-two-factor-authentication">3.3 One-factor two-factor authentication</h3>
+<p>Due to the fact that smartphones have become an integral part of our lives, they have become one of the ways to confirm the identity of the user. They are tokens for accessing various resources. In this case, a one-time password is generated either using a special application, or comes via SMS - this is the easiest method for the user
+Authentication goes like this:</p>
+<ol>
+<li>The user enters the login and password specified during registration. If this pair is correct, the system sends a one-time password with a limited validity period.</li>
+<li>The user enters a one-time password and, if it matches what the system sent, the user gets access to his account, funds or confirms the money transfer.
+Even if an attacker obtains a username and password for an account (using malware, stealing a notebook with passwords, or using social engineering and phishing methods), after entering these data, the system will send a one-time code with a limited duration to the user&rsquo;s linked mobile phone. Without a one-time code, a fraudster will not be able to steal money.</li>
+</ol>
+<h2 id="conclusion">Conclusion</h2>
+<p>Tracing the history of the appearance of locks and keys to them, and then with the advent of computers - passwords, one can observe how people have always been interested in the safety of things first, and with the advent of the information age and information. This interest has led to the fact that the means that allow restricting access to the object of preservation are constantly changing and becoming more complicated. And every time, inventors, researchers, scientists were looking for how to improve the means of identification and authentication, which is happening to this day.</p>
+
+    </div>
+
+    
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/deep-learning/">Deep Learning</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://aaandrievskaya.github.io/project/project-1/&amp;text=User%20authentication%20scheme%20using%20logins%20and%20passwords" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://aaandrievskaya.github.io/project/project-1/&amp;t=User%20authentication%20scheme%20using%20logins%20and%20passwords" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=User%20authentication%20scheme%20using%20logins%20and%20passwords&amp;body=https://aaandrievskaya.github.io/project/project-1/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://aaandrievskaya.github.io/project/project-1/&amp;title=User%20authentication%20scheme%20using%20logins%20and%20passwords" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=User%20authentication%20scheme%20using%20logins%20and%20passwords%20https://aaandrievskaya.github.io/project/project-1/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://aaandrievskaya.github.io/project/project-1/&amp;title=User%20authentication%20scheme%20using%20logins%20and%20passwords" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://aaandrievskaya.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu3427b05bceb4ba44c2fc04ebbe502ad5_3527204_270x270_fill_q75_lanczos_center.jpg" alt="Andrievskaya Anastasiya Andreevna"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://aaandrievskaya.github.io/">Andrievskaya Anastasiya Andreevna</a></h5>
+      <h6 class="card-subtitle">Student of RUDN</h6>
+      <p class="card-text">I study Operating Systems in the hope of acquiring the necessary and useful skills.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://elibrary.ru/author_info.asp?isold=1" target="_blank" rel="noopener">
+        <i class="academia academia-obp"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=H33gMY4AAAAJ&amp;hl=ru" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/my-orcid?orcid=0000-0002-8758-9545" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.mendeley.com/settings/account/" target="_blank" rel="noopener">
+        <i class="ai ai-mendeley"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Anastasiya-Andrievskaya" target="_blank" rel="noopener">
+        <i class="ai ai-researchgate"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://independent.academia.edu/AnastasiyaAndrievskaya" target="_blank" rel="noopener">
+        <i class="ai ai-academia"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://arxiv.org/user/" target="_blank" rel="noopener">
+        <i class="ai ai-arxiv"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/aaandrievskaya" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2022 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.53d67dc2cb1ebceb89d5e2aba2f86112.js"></script>
+
+    
+    
+    
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.ab2f2890dbe3e2e83579366d3d6e8fd9.js"></script>
+
+    
+    
+    
+    
+    
+    
+      
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+</body>
+</html>

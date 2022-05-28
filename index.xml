@@ -33,6 +33,200 @@
     </item>
     
     <item>
+      <title>My return</title>
+      <link>https://aaandrievskaya.github.io/post/how-was-my-week-4/</link>
+      <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://aaandrievskaya.github.io/post/how-was-my-week-4/</guid>
+      <description>&lt;h2 id=&#34;my-busy-week&#34;&gt;My busy week&lt;/h2&gt;
+&lt;p&gt;First of all, as you already understood, I was discharged) I am again a full-fledged person of society! Almost&amp;hellip;&lt;/p&gt;
+&lt;p&gt;The fact is that my leg has not fully healed, I still limp a lot. The doctor warned that the sprain could take a really long time to heal and I calmed down.&lt;/p&gt;
+&lt;p&gt;Well, now that I&amp;rsquo;m no longer at home, I have more to share with you! I attended OS pairs on Thursday and English on Friday.&lt;/p&gt;
+&lt;p&gt;On Thursday, I passed my debt on the report on the topic &amp;ldquo;User authentication scheme using logins and passwords.&amp;rdquo; Ironically, on that day, scammers hacked into my Vkontakte account. It was a sad but priceless experience. After all, even knowing the whole theory of Internet security, I was still caught with the help of social engineering on a phishing link. Therefore, I urge you all to once again remember the safety rules and rational thinking. Don&amp;rsquo;t repeat my mistakes!)&lt;/p&gt;
+&lt;p&gt;On Friday, I was glad to see the guys I sat down to miss so much. Unfortunately, there are a lot of debts in English that I have to complete in a week. But this is partly my fault, since I could do some tasks at home, but instead I decided to take a little vacation for myself &amp;hellip; Although, I don’t regret anything :)&lt;/p&gt;
+&lt;p&gt;Well, that&amp;rsquo;s where I&amp;rsquo;ll end my report. See you in a week!&lt;/p&gt;
+&lt;h2 id=&#34;my-social-networks&#34;&gt;My social networks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://vk.com/grandryce&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;VK&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;grandryce_an&#34;&gt;&lt;strong&gt;Instagram&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Peripherals of electronic computing systems</title>
+      <link>https://aaandrievskaya.github.io/project/project-2/</link>
+      <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://aaandrievskaya.github.io/project/project-2/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;It is impossible to imagine a computer without means of communication with a person or means of interfacing with external control objects. Such tools are necessary for downloading programs and data, uploading the results obtained, storing huge amounts of information, correcting computer operation by the user, as well as for direct control of production processes and objects. All these functions are assigned to a variety of peripheral devices (PU), which serve to transform the ways of presenting information suitable for a person and used in a computer, to control input / output and organize information storage, regardless of the presence of power.&lt;/p&gt;
+&lt;p&gt;Thus, I consider it important to systematize and structure information about the peripheral devices of computers, and then determine the significance of the place of peripheral devices in electronic computers.&lt;/p&gt;
+&lt;h2 id=&#34;1-interaction-of-pu-and-computer&#34;&gt;1. Interaction of PU and computer&lt;/h2&gt;
+&lt;h3 id=&#34;11-definition-of-peripherals&#34;&gt;1.1 Definition of peripherals&lt;/h3&gt;
+&lt;p&gt;Peripheral, or external, devices got their name in the 1960s, when the processor and RAM were placed in rack cabinets, forming a kind of &amp;ldquo;center&amp;rdquo;, and the rest of the devices, mostly electromechanical, were at some distance from it, i.e. on the periphery. But modern PUs are located both inside the computer case and outside, depending on the type of device and its interaction with objects in the outside world.
+A peripheral device is an additional auxiliary device external to the central processor and main memory, designed to input and / or output information to a computer and store data, and expanding its functionality. That is, it is by and large an optional device for the operation of a computer, but in most cases it is necessary for the implementation of certain user tasks.
+There are four types of peripherals:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;input devices;&lt;/li&gt;
+&lt;li&gt;output devices;&lt;/li&gt;
+&lt;li&gt;input-output devices;&lt;/li&gt;
+&lt;li&gt;data storage devices.
+Some PUs, called internal, are mounted in the same case with the computer (for example, hard disk, sound card, network card), while others, called external, are outside the case (for example, keyboard, mouse, printer) and are connected to it using a wired or wireless connection.
+Peripherals are connected to the central part of the computer through an interface, so it is important to give several definitions of this important concept.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;12-interface&#34;&gt;1.2 Interface&lt;/h3&gt;
+&lt;p&gt;Interface (interface) - a set of tools and rules that ensure the interaction of devices of a computer or information processing system and (or) programs. In addition to these standard definitions, it is convenient to use one more that expands and refines the above.
+An interface is a set of means and rules that provide interaction:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;between different nodes of a computer system (hardware interface);&lt;/li&gt;
+&lt;li&gt;between programs (software interface);&lt;/li&gt;
+&lt;li&gt;between hardware and software (hardware and software
+interface);&lt;/li&gt;
+&lt;li&gt;between a person and a computer (human-machine interface).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Peripheral devices with such a type of human-machine interface as the USB HID class seem to be very promising for use. USB HID is a class of USB devices that connect to a computer for human interaction. This class includes devices such as keyboard, mouse, game controller.&lt;/p&gt;
+&lt;h3 id=&#34;13-tires&#34;&gt;1.3 Tires&lt;/h3&gt;
+&lt;p&gt;So, to connect a peripheral device, you must first provide a hardware interface. In a computer, it is implemented by I / O buses. Modern computers contain two types of buses:
+a) the system bus that connects the central processing unit to the main
+memory;
+b) multiple I/O buses connecting various peripherals to the system bus and processor via a bridge
+The bus is a subsystem for transmitting data both internally
+computer and beyond. Unlike a point-to-point connection, which is designed to connect only two devices, a bus, by using the same set of wires, can provide a logical connection for several peripheral devices.
+The main difference between peripherals is the way they are connected - internal or external. The first is implemented using internal buses, represented by internal connectors (slots) on the system board, the second method is implemented by external buses, represented by external connectors (ports).
+However, in the general case, an external peripheral device connection scheme is used.&lt;/p&gt;
+&lt;p&gt;Next, we should recall the need for a hardware-software interface, i.e. peripheral controller driver.&lt;/p&gt;
+&lt;h3 id=&#34;14-drivers&#34;&gt;1.4 Drivers&lt;/h3&gt;
+&lt;p&gt;Driver is a computer software with the help of which another software (operating system) gains access to the hardware of some, in our case, peripheral device. Typically, operating systems ship with drivers for key hardware components that the system cannot function without. However, some devices (such as a video card or printer) may require special drivers, usually provided by the device manufacturer.&lt;/p&gt;
+&lt;h2 id=&#34;2-types-of-peripherals&#34;&gt;2. Types of peripherals&lt;/h2&gt;
+&lt;h3 id=&#34;21-input-devices&#34;&gt;2.1 Input devices&lt;/h3&gt;
+&lt;p&gt;Input devices are those devices through which information can be entered into a computer. Their main purpose is to implement the impact on the PC. The variety of input devices produced has given rise to entire technologies: from tactile to voice. Although they work on different principles, they are intended to implement one task - to allow the user to communicate with their computer.
+KEYBOARD
+The main input device of most computer systems is the keyboard. Until the voice recognition system can reliably perceive human speech, the dominant position of the keyboard is unlikely to change.
+SCANNER
+A scanner is a device that, by analyzing an object (usually an image, text), creates a digital copy of the image of the object.
+The process of obtaining this copy is called scanning.
+Mouse
+Manipulator and coordinate device of the computer. It is an addition to the keyboard and a necessary piece of equipment when using the graphical interface.
+Joystick
+Computer coordinate and manipulator device in the form of a handle with buttons. Used in simulators and in conjunction with game programs. A variety of game joysticks are &amp;ldquo;gamepads&amp;rdquo;, made in the form of small-sized panels, equipped with functional buttons and switches.
+Webcam
+A digital video or still camera capable of capturing images in real time for further transmission over the Internet.&lt;/p&gt;
+&lt;h3 id=&#34;22-output-devices&#34;&gt;2.2 Output devices&lt;/h3&gt;
+&lt;p&gt;Peripheral output devices are designed to output information in the format required by the operator. Among them there are mandatory (included in the basic PC configuration) and optional devices.
+MONITOR
+The monitor is a necessary information output device. The monitor (or display) allows you to display alphanumeric or graphical information in a form that is easy to read and control by the user.
+PRINTERS
+A printer is a widespread device for outputting information to paper, its name is derived from the English verb to print - to print. The printer is not included in the basic PC configuration.
+PROJECTION TECHNOLOGY
+Multimedia projectors have firmly entered our lives at the end of the 20th century, and now it is impossible to imagine many areas of human activity without them. These are the educational process, presentations, show business and home cinema. A multimedia projector allows you to play on a large screen information received from a computer, VCR, camcorder, camera, DVD player, game console.&lt;/p&gt;
+&lt;h3 id=&#34;23-io-devices&#34;&gt;2.3 I/O devices&lt;/h3&gt;
+&lt;p&gt;Peripheral output devices are designed for both input and output of information in the format necessary for the operator and there are several types depending on the purpose.
+Audio headset
+It is both audio equipment (output device) and a microphone (information input device)
+Virtual reality headset
+A head-mounted device that provides virtual reality to the user. Virtual reality is a computer-generated world that completely replaces the real one, while the user can influence it by immersing, for example, in a video game.&lt;/p&gt;
+&lt;h3 id=&#34;24-storage-devices&#34;&gt;2.4 Storage devices&lt;/h3&gt;
+&lt;p&gt;Flash drive
+A storage device that uses flash memory as a medium and is connected to a computer or other reader via an interface.
+hard disk drive, hard disk
+A storage device (information storage device, drive) of random access, based on the principle of magnetic recording. It is the main storage medium in most computers.
+floppy disk drive, floppy disk
+A device for storing small amounts of information, which is a flexible plastic plate in a protective shell.
+Used to transfer data from one computer to another.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Summing up my work, it can be argued that the goal I set was achieved, namely: the types of peripheral devices, ways of connecting them to a computer were investigated; I also learned how the interaction between the devices of a computer and an information processing system or programs is ensured.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scientific programming languages</title>
+      <link>https://aaandrievskaya.github.io/post/scientific-programming-languages/</link>
+      <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://aaandrievskaya.github.io/post/scientific-programming-languages/</guid>
+      <description>&lt;h2 id=&#34;general-information&#34;&gt;General information&lt;/h2&gt;
+&lt;p&gt;Scientific programming is a highly oriented style of programming for scientific computing. It is distinguished from other types of programming by the extreme correctness and stability of the final product, the strict separation of scientific and interface parts, the individuality of algorithms, and the predominance of efficiency over universality.&lt;/p&gt;
+&lt;p&gt;Scientific programming is at the heart of any modern global research. All advanced technologies - from quantum computers to space programs - would not be possible without scientific programmers who can provide scientists with a reliable and accurate tool for making discoveries.&lt;/p&gt;
+&lt;p&gt;A number of branches of science directly depend on the level of development of scientific programming. So, unmanned vehicles, “smart” management systems for urban and agricultural management, stock exchanges are waiting for their implementation; waiting for robotics, genetic engineering, artificial intelligence beyond human capabilities&lt;/p&gt;
+&lt;p&gt;##Specializations&lt;/p&gt;
+&lt;p&gt;Scientists use various programming languages, the choice of which depends on the type of problem and the preferences of the author. Historically, the first high-level programming language is Fortran; many debugged libraries of mathematical statistics and libraries for solving differential equations are written on it, which is relevant for economics and biology, respectively.&lt;/p&gt;
+&lt;p&gt;Python has a simpler syntax, which is also suitable for programming mathematical calculations. The Python language is used for data processing in mathematics, physics, economics, biology, chemistry and can work with some other &amp;ldquo;scientific&amp;rdquo; languages: Fortran, C++, C#.&lt;/p&gt;
+&lt;p&gt;In turn, C# allows you to program on the .NET platform, adapt the program to the common language runtime (CLR), and accelerate development within the framework of operational scientific sessions.&lt;/p&gt;
+&lt;h2 id=&#34;the-future-of-the-programmer-scientist-profession&#34;&gt;The future of the programmer-scientist profession&lt;/h2&gt;
+&lt;p&gt;Programming drives science, which drives technological progress. Inventions that were considered revolutionary yesterday serve everyday needs in the 21st century: a microwave oven, a mobile phone, an 8-bit home computer. It depends on the programmer-scientist what peaks science will reach today and which of them will enter every house tomorrow.&lt;/p&gt;
+&lt;p&gt;In the hands of the programmer-scientist are the tools not only to develop the industry, but also to improve the overall quality of life. Such a specialist increases the prognostic function of humanity, helping to predict and prevent climate, financial, and humanitarian disasters.&lt;/p&gt;
+&lt;h2 id=&#34;where-to-learn-programming&#34;&gt;Where to learn programming&lt;/h2&gt;
+&lt;p&gt;You can learn programming anytime, anywhere. Specialized literature, face-to-face training, Internet sites - all these resources are able to provide a novice programmer with a knowledge base sufficient for independent creativity and advanced training, including in line with scientific development.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>User authentication scheme using logins and passwords</title>
+      <link>https://aaandrievskaya.github.io/project/project-1/</link>
+      <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://aaandrievskaya.github.io/project/project-1/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;The problem of the reliability of personal identification in modern conditions worries many authors, since the number of participants in electronic interaction in the modern world is steadily growing. Authentication is the basis for building a trusting relationship between the parties when they interact through open communication channels, in connection with which the role of authentication of participants becomes significant.&lt;/p&gt;
+&lt;p&gt;Authentication is the process of determining whether someone (or something) is who he or she is pretending to be. In the context of IT processes, this means that the credentials provided by the person requesting access to the resource are compared with the data held by the resource. If the information matches, the user is granted access. As a rule, authentication processes are associated with the following tasks: to provide authorized access, to establish trust relationships during remote access, to establish (identify) the identity of the owner of an electronic signature, etc.&lt;/p&gt;
+&lt;h2 id=&#34;1-password-authentication-prototypes&#34;&gt;1. Password authentication prototypes&lt;/h2&gt;
+&lt;h3 id=&#34;11-voice-passwords&#34;&gt;1.1 Voice passwords&lt;/h3&gt;
+&lt;p&gt;Speech passwords have found their application due to the absence of any additional means in establishing the belonging of a certain person to a specific group of people.
+For example, in the medieval Spanish army there were cases when, at nightfall, nervous soldiers accidentally killed one of their own, mistaking them for an enemy. The military leaders soon devised a remedy for this problem: every day they chose a word that, in the form of a secret signal, would serve so that the soldiers of the same group could recognize each other.&lt;/p&gt;
+&lt;p&gt;This system played an indispensable role during the Civil War and the Great Patriotic War, as evidenced by numerous historical documents. The password and recall were set, among other things, for conducting telegraph negotiations along the line of military communications.&lt;/p&gt;
+&lt;p&gt;Passwords and reviews are often used in undercover intelligence. They are predetermined phrases by which you can recognize a scout or agent. Here, the verbal password is proof that the scout (agent) was confronted by exactly the person with whom the other could meet and work.&lt;/p&gt;
+&lt;p&gt;The password and the answer to it can be real. In this case, those who meet may have with them objects predetermined and known only to them, for example, combs, coins, banknotes, which may be the same or, on the contrary, different. In this case, the real password can be independent or supplement the verbal password.&lt;/p&gt;
+&lt;h3 id=&#34;12-castles&#34;&gt;1.2 Castles&lt;/h3&gt;
+&lt;p&gt;A lock is a mechanical, electrical or electronic device that limits the possibility of unauthorized use of something.&lt;/p&gt;
+&lt;p&gt;The idea of ​​locks and keys to them arose with the advent of private property, when people began to think about how to protect it from outside encroachment.&lt;/p&gt;
+&lt;p&gt;The presence of a shared key made the locks less secure, as it reduced the degree of security. Special combination locks, opened by typing letters or numbers on rotating disks, appeared in Europe in the 17th century. The use of the lock code was the prototype for the introduction of the modern password, and the selection of the code was difficult. So, of interest is the Eureka combination lock, patented in the USA in 1862, in which, due to the large number of different letters and numbers, the number of possible combinations on the lock was 1,073,741,824.&lt;/p&gt;
+&lt;p&gt;Drawing an analogy between a lock code and a computer password, the former has advantages and disadvantages similar to a modern password. The advantages include the absence of a key that can be lost and which an attacker can copy in the absence of the owner; the ability to quickly change the code. The disadvantages are as follows: the code can be forgotten, but writing it down increases the likelihood that an outsider will recognize the code; the code can be peeped when entering; often dates of birth, addresses, well-known numbers are used as codes, which simplifies the selection of the code.&lt;/p&gt;
+&lt;p&gt;A variation of the combination lock is an electronic lock. An electronic lock is a high-tech device controlled by microprocessors and used to lock doors. In the presence of an electronic lock, a decision on the access of persons to the premises is made on the basis of signals from various sensors: magnetic card readers, barcodes, contact memory sensors, biometric sensors, dial pads, combinatorial fluorescent molecular sensors, remote control, etc.
+In the future, electronic locks could compete with molecular locks, which have a sensor that responds not to a set of electrical signals from a keyboard or a reader, but to a set of chemicals.&lt;/p&gt;
+&lt;h2 id=&#34;2-password-authentication&#34;&gt;2. Password authentication&lt;/h2&gt;
+&lt;p&gt;The advent of computers led to the need to protect the information stored in them, as well as the creation of access control mechanisms to it, the main component of which was user authentication, one of which is password.
+Fernando Corbato, a professor at the Massachusetts Institute of Technology, is considered the inventor of computer passwords. The use of passwords was required, in modern terms, to differentiate access of several users to the files of one computer. Putting a password on each individual user as a lock seemed like a very simple solution. Since there was no earlier documented use of a security system when using a computer, it is Corbato who is credited with being the first to put such a system on a computer. With the advent of personal computers in the 1980s. the password has become an integral part of business life, and over time, everyday life. It should be noted that the same time is considered the earliest when password theft was documented. These early passwords were simple and easy to save, as complex hacker networks and password cracking programs did not yet exist.
+Password authentication is currently the most common method of protecting information. Authentication can take place using one-time and reusable passwords. A reusable password is set by the user, and the system stores it in the database. It is the same for every session. These include PIN codes, words, numbers, pattern keys. One-time passwords - different for each session. It can be an SMS with a code.&lt;/p&gt;
+&lt;h3 id=&#34;21-reusable-password-authentication&#34;&gt;2.1 Reusable password authentication&lt;/h3&gt;
+&lt;p&gt;One of the ways to authenticate in a computer system is to enter your user ID, colloquially called &amp;ldquo;login&amp;rdquo; (English login - username, account), and a password - some confidential information. A reliable (reference) login-password pair is stored in a special database (Fig. 1.).
+Simple authentication has the following general algorithm:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The subject requests access to the system and enters a personal ID and password.&lt;/li&gt;
+&lt;li&gt;The unique data entered is sent to the authentication server, where it is compared with the reference data.&lt;/li&gt;
+&lt;li&gt;If the data matches the reference, authentication is considered successful, if there is a difference, the subject moves to the 1st step
+The password entered by the subject can be transmitted over the network in two ways:
+• Unencrypted, in the clear, based on the Password Authentication Protocol (PAP)
+• Using SSL or TLS encryption. In this case, the unique data entered by the subject is transmitted securely over the network.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;22-one-time-password-authentication&#34;&gt;2.2 One Time Password Authentication&lt;/h3&gt;
+&lt;p&gt;Having once obtained the subject&amp;rsquo;s reusable password, the attacker has permanent access to the compromised confidential information. This problem is solved by using one-time passwords (OTP - One Time Password). The essence of this method is that the password is valid for only one login, with each subsequent access request, a new password is required. The authentication mechanism for one-time passwords can be implemented both in hardware (Fig. 2.) and in software.
+Technologies for using one-time passwords can be divided into:
+• Use of a pseudo-random number generator, common for the subject and the system
+• Use of timestamps in conjunction with a universal time system
+• Use of a database of random passwords, common for the subject and for the system
+The first method uses a pseudo-random number generator with the same value for the subject and for the system. A subject-generated password can be passed to the system on consecutive use of a one-way function or on each new request based on unique information from a previous request.
+The second method uses timestamps. An example of such technology is SecurID. It is based on the use of hardware keys and time synchronization. Authentication is based on the generation of random numbers at certain time intervals. The unique secret key is stored only in the system base and in the subject&amp;rsquo;s hardware device. When the subject requests access to the system, he is prompted to enter, in addition to the PIN from his account, a randomly generated number displayed at that moment on the hardware device. The system matches the entered PIN and the subject&amp;rsquo;s secret key from its database and generates a random number based on the parameters of the secret key from the database and the current time. Next, the identity of the generated number and the number entered by the subject is checked. It also checks the time when the number was generated on the server and on the user&amp;rsquo;s hardware device.
+The third method is based on a single database of passwords for the subject and the system and high-precision synchronization between them. In this case, each password from the set can be used only once. Due to this, even if an attacker intercepts the password used by the subject, it will no longer be valid.
+Compared to using reusable passwords, one-time passwords provide a higher degree of security.&lt;/p&gt;
+&lt;h2 id=&#34;3-system-security&#34;&gt;3. System security&lt;/h2&gt;
+&lt;p&gt;The use of reusable passwords has a number of significant disadvantages. Firstly, the master password itself or its hashed image is stored on the authentication server. Often, the password is stored without cryptographic transformations, in system files. Having gained access to them, an attacker can easily get to confidential information. Secondly, the subject is forced to remember (or write down) his reusable password. An attacker can get it by simply applying the skills of social engineering, without any technical means. Thirdly, the security of the system is greatly reduced in the case when the subject chooses his own password. Often it turns out to be some word or combination of words present in the dictionary. In GOST 28147-89, the key length is 256 bits (32 bytes). When using a pseudo-random number generator, the key has good statistical properties. The password, which is, for example, a word from a dictionary, can be reduced to a pseudo-random number 16 bits long, which is 16 times shorter than the GOST key. Given enough time, an attacker can crack the password with a simple brute-force attack. The solution to this problem is the use of random passwords or a time limit on the validity of the subject&amp;rsquo;s password, after which the password must be changed.&lt;/p&gt;
+&lt;h3 id=&#34;31-one-way-functions&#34;&gt;3.1 One-way functions&lt;/h3&gt;
+&lt;p&gt;From the point of view of the best security when storing and transmitting passwords, one-way functions should be used. Typically, cryptographically strong hash functions are used for these purposes. In this case, the server stores only the image of the user&amp;rsquo;s password that he entered earlier. Having received the password and having done its hash transformation, the system compares the result with the reference image stored in it. If they are identical, the passwords are the same. For an attacker who has gained access to the image, it is almost impossible to calculate the password itself, since there is no way to “decode” the password. Finding its original appearance in the image is possible only by enumeration.&lt;/p&gt;
+&lt;h3 id=&#34;32-multi-factor-authentication&#34;&gt;3.2 Multi-factor authentication&lt;/h3&gt;
+&lt;p&gt;Multi-Factor Authentication is a method in which a user needs to prove by two different factors that they are the owner of the account or that they are logging in in order to access an account or confirm a transaction with funds.
+Among the types of multi-factor authentication, the most common two-factor authentication (2FA - 2-factor authentication) is a method in which the user must provide two different types of authentication data to gain access, for example, something known only to the user (password) and something inherent only user (fingerprint).
+Access to resources through entering a login and password is one-factor authentication, since only one type of authentication data is used to enter - a password known to the user.&lt;/p&gt;
+&lt;h3 id=&#34;33-one-factor-two-factor-authentication&#34;&gt;3.3 One-factor two-factor authentication&lt;/h3&gt;
+&lt;p&gt;Due to the fact that smartphones have become an integral part of our lives, they have become one of the ways to confirm the identity of the user. They are tokens for accessing various resources. In this case, a one-time password is generated either using a special application, or comes via SMS - this is the easiest method for the user
+Authentication goes like this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The user enters the login and password specified during registration. If this pair is correct, the system sends a one-time password with a limited validity period.&lt;/li&gt;
+&lt;li&gt;The user enters a one-time password and, if it matches what the system sent, the user gets access to his account, funds or confirms the money transfer.
+Even if an attacker obtains a username and password for an account (using malware, stealing a notebook with passwords, or using social engineering and phishing methods), after entering these data, the system will send a one-time code with a limited duration to the user&amp;rsquo;s linked mobile phone. Without a one-time code, a fraudster will not be able to steal money.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Tracing the history of the appearance of locks and keys to them, and then with the advent of computers - passwords, one can observe how people have always been interested in the safety of things first, and with the advent of the information age and information. This interest has led to the fact that the means that allow restricting access to the object of preservation are constantly changing and becoming more complicated. And every time, inventors, researchers, scientists were looking for how to improve the means of identification and authentication, which is happening to this day.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Groundhog day</title>
       <link>https://aaandrievskaya.github.io/post/how-was-my-week-3/</link>
       <pubDate>Sat, 21 May 2022 00:00:00 +0000</pubDate>
@@ -635,19 +829,6 @@ $$&lt;/p&gt;
 &lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example Project</title>
-      <link>https://aaandrievskaya.github.io/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://aaandrievskaya.github.io/project/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
     </item>
     
