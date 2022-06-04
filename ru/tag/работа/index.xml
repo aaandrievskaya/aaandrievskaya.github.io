@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Работа | Academic</title>
+    <link>https://aaandrievskaya.github.io/ru/tag/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/</link>
+      <atom:link href="https://aaandrievskaya.github.io/ru/tag/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    <description>Работа</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru</language><lastBuildDate>Sat, 04 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://aaandrievskaya.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Работа</title>
+      <link>https://aaandrievskaya.github.io/ru/tag/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/</link>
+    </image>
+    
+    <item>
+      <title>Время расплаты</title>
+      <link>https://aaandrievskaya.github.io/ru/post/how-was-my-week-5/</link>
+      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://aaandrievskaya.github.io/ru/post/how-was-my-week-5/</guid>
+      <description>&lt;h2 id=&#34;моя-по-настоящему-загруженная-неделя-и-мысли&#34;&gt;Моя по-настоящему загруженная неделя и мысли&lt;/h2&gt;
+&lt;p&gt;Итак, почти закончилась еще одна неделя. На ней я посетила в последний раз все свои пары в этом учебном году. Это грустно? Возможно. Но мне было гораздо печальнее от того, какое количество долгов я успела насобирать за это время:)&lt;/p&gt;
+&lt;p&gt;И казалось бы, ведь это совсем не удивительно. Если ты не выполняешь работу, то ведь она от этого не перестает существовать. Все так, но мозг хитер и ленив. Я себе в этом не признавалась. и вот пришло время расплаты.&lt;/p&gt;
+&lt;p&gt;Ну, с тем, что именно в 4 модуле я перестала быть отличницей и потеряла повышенную стипендию, я смирилась давно. В целом, я и сейчас считаю, что вытянуть все предметы на &amp;ldquo;5&amp;rdquo; было бы подобно смерти и я бы не справилась в любом случае. Но ведь чтобы учиться на &amp;ldquo;4&amp;rdquo; нужно работать тоже немало)).&lt;/p&gt;
+&lt;p&gt;Вчера я с трудом смогла закрыть английский язык на &amp;ldquo;;&amp;rdquo;, чему очень рада. Впереди еще любимые Операционные системы и Технология программирования. Если честно, переживать есть о чем, ведь я не могу знать до самого конца сколько баллов смогу получить. Все очень сложно. Но я готова бороться. Пожелайте мне удачи :)&lt;/p&gt;
+&lt;h2 id=&#34;my-social-networks&#34;&gt;My social networks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://vk.com/grandryce&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;VK&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;grandryce_an&#34;&gt;&lt;strong&gt;Instagram&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Научные языки программирования</title>
+      <link>https://aaandrievskaya.github.io/ru/post/scientific-programming-languages/</link>
+      <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://aaandrievskaya.github.io/ru/post/scientific-programming-languages/</guid>
+      <description>&lt;h2 id=&#34;главная-информация&#34;&gt;Главная Информация&lt;/h2&gt;
+&lt;p&gt;Научное программирование — это строго ориентированный стиль программирования для научных вычислений. От других видов программирования его отличает предельная корректность и стабильность конечного продукта, строгое разделение научной и интерфейсной частей, индивидуальность алгоритмов, преобладание эффективности над универсальностью.&lt;/p&gt;
+&lt;p&gt;Научное программирование лежит в основе любого современного глобального исследования. Все передовые технологии — от квантовых компьютеров до космических программ — были бы невозможны без ученых-программистов, которые могут предоставить ученым надежный и точный инструмент для совершения открытий.&lt;/p&gt;
+&lt;p&gt;Ряд отраслей науки напрямую зависит от уровня развития научного программирования. Так, своего внедрения ждут беспилотные автомобили, «умные» системы управления городским и сельскохозяйственным хозяйством, фондовые биржи; ждем робототехники, генной инженерии, искусственного интеллекта сверх человеческих возможностей&lt;/p&gt;
+&lt;p&gt;##Специализации&lt;/p&gt;
+&lt;p&gt;Ученые используют различные языки программирования, выбор которых зависит от типа задачи и предпочтений автора. Исторически сложилось так, что первым языком программирования высокого уровня был Фортран; на нем написано множество отлаженных библиотек математической статистики и библиотек для решения дифференциальных уравнений, что актуально для экономики и биологии соответственно.&lt;/p&gt;
+&lt;p&gt;Python имеет более простой синтаксис, который также подходит для программирования математических вычислений. Язык Python используется для обработки данных в математике, физике, экономике, биологии, химии и может работать с некоторыми другими «научными» языками: Fortran, C++, C#.&lt;/p&gt;
+&lt;p&gt;В свою очередь C# позволяет программировать на платформе .NET, адаптировать программу к CLR и ускорять разработку в рамках операционных научных сессий.&lt;/p&gt;
+&lt;h2 id=&#34;будущее-профессии-программиста-ученого&#34;&gt;Будущее профессии программиста-ученого&lt;/h2&gt;
+&lt;p&gt;Программирование движет наукой, которая движет технологический прогресс. Изобретения, еще вчера считавшиеся революционными, служат повседневным потребностям в 21 веке: микроволновая печь, мобильный телефон, 8-битный домашний компьютер. От программиста-ученого зависит, каких вершин достигнет наука сегодня и какие из них завтра войдут в каждый дом.&lt;/p&gt;
+&lt;p&gt;В руках программиста-ученого находятся инструменты не только для развития отрасли, но и для улучшения общего качества жизни. Такой специалист повышает прогностическую функцию человечества, помогая прогнозировать и предотвращать климатические, финансовые и гуманитарные катастрофы.&lt;/p&gt;
+&lt;h2 id=&#34;где-учиться-программированию&#34;&gt;Где учиться программированию&lt;/h2&gt;
+&lt;p&gt;Вы можете изучать программирование в любое время и в любом месте. Специализированная литература, очное обучение, Интернет-сайты – все эти ресурсы способны обеспечить начинающего программиста базой знаний, достаточной для самостоятельного творчества и повышения квалификации, в том числе в русле научных разработок.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Форматирование отчёта</title>
+      <link>https://aaandrievskaya.github.io/ru/post/report-design/</link>
+      <pubDate>Sat, 21 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://aaandrievskaya.github.io/ru/post/report-design/</guid>
+      <description>&lt;h2 id=&#34;технические-правила&#34;&gt;Технические правила&lt;/h2&gt;
+&lt;p&gt;Размер шрифта - не менее 12 пт.
+Шрифт - Times New Roman. через полтора интервала.
+Текст доклада должен быть напечатан со следующими полями:
+слева - 30 мм,
+справа - 15 мм,
+верх и низ - 20 мм.
+Абзацный отступ должен быть одинаковым по всему тексту доклада и равен 1,25 см.
+Нумерация страниц арабскими цифрами сквозная (включая приложения), по центру внизу без точки. Специальный заголовок для титульного листа (без номера).
+Заголовки структурных элементов располагаются посередине строки без точки в конце и печатаются ПРОПИСНЫМИ БУКВАМИ без подчеркивания. (РЕЗЮМЕ, ВВЕДЕНИЕ, ОСНОВНАЯ ЧАСТЬ и т.д.)
+Каждый структурный элемент и каждый раздел основной части отчета начинается с новой страницы.
+Основная часть отчета должна быть разбита на разделы, подразделы и параграфы. Разделы и подразделы отчета должны иметь заголовки. Заголовки разделов и подразделов основной части отчета должны начинаться с абзацного отступа и помещаться после порядкового номера, печататься ПРОПИСНЫМИ БУКВАМИ, жирным шрифтом, без подчеркивания, без точки в конце. Абзацы и подпункты могут иметь только порядковый номер без заголовка, начиная с отступа абзаца.&lt;/p&gt;
+&lt;p&gt;##Образец нумерации заголовков разделов и подразделов&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3 ПРИНЦИПЫ, МЕТОДЫ И РЕЗУЛЬТАТЫ РАЗРАБОТКИ И ПОДДЕРЖАНИЯ СИСТЕМ КЛАССИФИКАЦИИ VINITI&lt;/strong&gt;
+&lt;strong&gt;3.1 РУБРИКАТОР ВИНИТИ&lt;/strong&gt;
+&lt;strong&gt;3.1.1 УСТРОЙСТВО И ФУНКЦИИ РУБРИКАТОРА&lt;/strong&gt;
+&lt;strong&gt;3.1.2 ОТНОШЕНИЯ РУБРИКАТОРА VINITIA GRNTI&lt;/strong&gt;
+&lt;strong&gt;3.1.3 МЕСТО РУБРИКАТОРА ОТРАСЛИ ЗНАНИЙ В СИСТЕМЕ РУБРИКАЦИИ VINITI&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;структурные-элементы-отчета&#34;&gt;Структурные элементы отчета&lt;/h2&gt;
+&lt;p&gt;• ТИТУЛЬНЫЙ ЛИСТ
+• СПИСОК ИСПОЛНИТЕЛЕЙ (если отчет составляется одним исполнителем, на титульном листе отчета указываются его должность, ученая степень, ученое звание, фамилия и инициалы. В этом случае структурный элемент отчета «СПИСОК ИСПОЛНИТЕЛЕЙ&amp;quot; не оформляется)
+• СОДЕРЖАНИЕ
+• ПОНЯТИЯ И ОПРЕДЕЛЕНИЯ
+• СПИСОК СОКРАЩЕНИЙ И СИМВОЛОВ
+• ВВЕДЕНИЕ
+• ОСНОВНАЯ ЧАСТЬ ОТЧЕТА
+• ВЫВОД
+• СПИСОК ИСПОЛЬЗУЕМЫХ ИСТОЧНИКОВ
+• ПРИЛОЖЕНИЕ&lt;/p&gt;
+&lt;h2 id=&#34;введение&#34;&gt;Введение&lt;/h2&gt;
+&lt;p&gt;Введение является прологом всего исследования, в нем представлена ​​его модель. Здесь изложен весь научный аппарат, которым руководствуется исследователь, производящий поисковую работу. На его основе научный руководитель анализирует качество выполнения реферата, курсовой или дипломной работы и оценивает: насколько глубоко осознана и понята актуальность темы, достигнута ли цель, правильно ли выбраны методы исследования правильно ли они использовались и т. д.&lt;/p&gt;
+&lt;p&gt;Композиция Введения представляет собой описание научного аппарата, которое зависит от того, какая работа ведется. Если пишется реферат, то во Введении будет описана актуальность темы, цель реферата, предмет и методы исследования. Если это курсовая работа, то во Введение, помимо тех компонентов, которые входят в реферат, будет также входить описание объекта и задач исследования. В диссертации описывается весь научный аппарат. Так студент от работы к работе постепенно осваивает технологию проектирования научных исследований в доступных ему формах.&lt;/p&gt;
+&lt;p&gt;Объем введения составляет примерно 1/10 часть всего объема работы, то есть конкретного текста реферата, курсовой или дипломной работы. Место введения - находится сразу после оглавления перед основной частью.&lt;/p&gt;
+&lt;p&gt;Требования к написанию введения:&lt;/p&gt;
+&lt;p&gt;а) введение печатается на отдельных страницах;&lt;/p&gt;
+&lt;p&gt;б) не нумеруется ни в оглавлении, ни в тексте, а идет как самостоятельная часть работы;&lt;/p&gt;
+&lt;p&gt;в) все компоненты научного аппарата выделены шрифтом или подчеркнуты;&lt;/p&gt;
+&lt;p&gt;г) каждый компонент пишется с новой строки.&lt;/p&gt;
+&lt;p&gt;Например:&lt;/p&gt;
+&lt;p&gt;Актуальность исследования определяется тем, что…;&lt;/p&gt;
+&lt;p&gt;Цель исследования - разработать комплекс методов&amp;hellip;;&lt;/p&gt;
+&lt;p&gt;Предметом исследования являются методы воспитания наблюдательности&amp;hellip;&lt;/p&gt;
+&lt;p&gt;При написании Введения рекомендуем обратить особое внимание на актуальность темы исследования. Это, по сути, патентно-исследовательская работа по поиску государственного или регионального заказа на вашу тему, определение места темы в научном мире, по отношению к практике.&lt;/p&gt;
+&lt;p&gt;Будьте бдительны - чтение Введения начинается с оценки вашей работы. Вступление читают все, особенно противники. По ее качеству судят обо всей работе, уровне профессиональной подготовки, ответственности, умении планировать свою работу и выполнять ее вдумчиво и многих других качествах специалиста.&lt;/p&gt;
+&lt;h2 id=&#34;основная-часть&#34;&gt;Основная часть&lt;/h2&gt;
+&lt;p&gt;«Основная часть» - условное название описания всего исследования, то есть содержательной части реферата, курсовой или дипломной работы. Это то, что строится на базе проектируемого научного аппарата. Здесь все должно быть подчинено достижению цели преобразования предмета исследования выбранными вами методами. Все, что было задумано и описано во введении, здесь начинает «работать».&lt;/p&gt;
+&lt;p&gt;Для написания основной части составляется план текста в виде перечня основных положений, подлежащих раскрытию. Любой план письменного текста состоит из глав, абзацев и подпунктов. Их количество зависит от объема материала и характера текста, особенностей учебной дисциплины, в рамках и на основе которой выполняется работа. Общее требование состоит в том, чтобы они были пропорциональны друг другу по объему и степени сложности содержания. Кроме того, количество абзацев в главах и подпунктов в абзацах непременно должно быть не менее двух. Глава не может состоять из одного абзаца, а абзац из одного подпункта.&lt;/p&gt;
+&lt;p&gt;Названия (заголовки) глав, пунктов и подпунктов могут не совпадать друг с другом или с темой. Слова «Основная часть» не включены ни в один из заголовков, так как это условное название всего текста по его назначению в работе. Названия всех глав, параграфов и подпунктов построены содержательно, отражая раскрытые в них идеи. Их цель – направить внимание как писателя, так и читателя на конкретную мысль, конкретный материал.&lt;/p&gt;
+&lt;p&gt;Построение основной части реферата зависит от его объема, особенностей содержания и цели. Чаще всего в реферате нет глав, а есть только параграфы без дальнейшего деления на подпункты. Реферат может вообще не иметь деления на части, а выполняться как целостное произведение, но с внутренней логикой изложения содержания. Абзацы, выделенные в аннотации, не имеют общего заголовка, таковой для них является тема аннотации, которая находится на титульном листе.&lt;/p&gt;
+&lt;p&gt;Построение основной части курсовой работы более подробно, чем реферата. Он содержит не менее двух глав. Главы разбиты на параграфы. Подпункты здесь почти не используются. Каждая глава имеет свое собственное осмысленное название, как и каждый абзац. Если содержание глав нельзя разделить на абзацы, то главы упрощаются до абзацев, то есть вообще не вводятся. Как правило, курсовые работы делятся на две главы - теоретическую и эмпирическую, посвященную либо обобщению опыта работы, либо небольшому эксперименту. Курсовую работу можно написать только на теоретическом или только на эмпирическом материале. Это зависит от темы, от целей и задач, а также от научного руководителя. Напомним, что теоретическая часть работы не может носить такие названия, как «Основная часть», «Теоретическая часть» или «Обзор литературы». Его заголовки сформулированы содержательно, проблемно в соответствии с конкретной темой и методами работы над теорией.&lt;/p&gt;
+&lt;p&gt;Построение основной части диссертации еще сложнее. Дипломная работа может состоять из большего количества глав, например, из четырех. Первая глава, как правило, посвящена теоретическим вопросам, вторая — описанию программы эксперимента, третья — проведению эксперимента и обсуждению его результатов, четвертая — разработке методических рекомендаций. Возможно сочетание второй и третьей глав. Возможно отсутствие четвертой главы. Все зависит опять же от особенностей темы, целей и задач, выбранных методов и рекомендаций научного руководителя.&lt;/p&gt;
+&lt;p&gt;В дипломной работе каждая глава заканчивается специальным разделом, не имеющим собственной нумерации, а именно - Выводами по главе. Эти выводы обобщают материал, изложенный в параграфах главы, и позволяют получить новые выводы, отличные от уже известных в науке, или подтвердить их на новом исследовательском материале. Выводы главы представляют собой последовательность утверждений, состоящую из предпосылок и ранее доказанных утверждений. Это соблюдает логический закон достаточного основания, согласно которому каждое суждение должно быть оправдано другими, истинность которого доказана вами или кем-то другим. Выводы по главам можно делать индуктивно и дедуктивно. Требования к выводам по главам: системность, соответствие содержанию главы и новизна.&lt;/p&gt;
+&lt;h2 id=&#34;вывод&#34;&gt;Вывод&lt;/h2&gt;
+&lt;p&gt;Каждое исследование имеет Заключение как эпилог работы, как ее заключительную часть. Цель Заключения – показать, что цель, поставленная перед исследованием, достигнута, а гипотеза доказана.&lt;/p&gt;
+&lt;p&gt;Виды заключения: резюме, выводы и само заключение. Резюме – это краткое описание проделанной работы, выполненное в виде перечня проделанного и выводов по главам. Чаще всего используется в ссылках. Выводы — это уже новые суждения, вернее выводы, сделанные на материале теории или эмпирики. В выводах теоретический или эмпирический материал служит лишь основой для новых идей, суждений, положений, рекомендаций. Чаще всего выводы делаются там, где авторы статей имеют собственные суждения и применяют различные методы анализа научных работ и практики. Заключение представляет собой сложную форму завершения исследования, включающую в себя как резюме, так и выводы. Кроме того, в Заключение включена оценка теоретической и практической значимости работы, которая может выходить за рамки темы.&lt;/p&gt;
+&lt;p&gt;Выбор типа Заключения зависит от:&lt;/p&gt;
+&lt;p&gt;сложность работы (для реферата достаточно реферата, для курсовой – заключения, а для диплома – заключения);
+от характера содержания работы, т. е. от того, какие приемы работы с ней применялись: чем сложнее приемы и чем меньше составляющая работа, тем целесообразнее выбирать выводы и даже заключение;
+владение автором технологией выполнения этих видов завершения своего исследования.
+Построение Заключения зависит от выбранного представления. В наиболее законченном виде он построен примерно по такому плану:&lt;/p&gt;
+&lt;p&gt;заявление о достижении цели исследования и доказательства;
+гипотезы с краткими подтверждениями;
+резюме как кратчайший обзор проделанной работы;
+новые положения (идеи, суждения, оценки), полученные в результате исследования;
+определение научной новизны выполненной работы;
+определение практической значимости проделанной работы.
+По стилю написания Заключение должно быть кратким, четким, логичным, доказательным, убедительным. Необходимо помнить, что как научный руководитель, так и оппоненты, дающие отзыв о работе, наиболее внимательно относятся к ней, как и к Введению.&lt;/p&gt;
+&lt;p&gt;Объем Заключения определяется характером работы. Но есть условный стандарт. Как и Введение, ему отводится не более 1/10 всего текста.&lt;/p&gt;
+&lt;h2 id=&#34;список-используемых-источников&#34;&gt;Список используемых источников&lt;/h2&gt;
+&lt;p&gt;Список литературы завершает описание исследования. Часто его называют библиографией, что неверно. Список литературы следует за Заключением и составляется с новой страницы.&lt;/p&gt;
+&lt;p&gt;Количество литературы, включаемой в Перечень, зависит от формы научно-исследовательской работы. Для реферата норма не менее 5 работ, для курсовой работы – не менее 10, для дипломной работы – не менее 25.&lt;/p&gt;
+&lt;p&gt;Литература, включенная в Перечень, представляет собой опубликованные теоретические источники, юридические документы, а также архивные материалы. Сюда можно вносить рукописные материалы с пометкой «Рукопись». Включается не только цитируемая литература, но и прочитанная литература, имеющая непосредственное отношение к изучаемой теме. Все авторы и их работы, указанные в тексте, должны быть включены в этот список, особенно цитируемые работы.&lt;/p&gt;
+&lt;p&gt;Список литературы должен включать работы по изучению вашей темы преподавателей, психологов, социологов, историков, философов и других специалистов, работающих в вашем вузе. Вы призваны внести свой вклад в развитие науки в вашей альма-матер.&lt;/p&gt;
+&lt;p&gt;Вся литература оформляется строго в алфавитном порядке, по первой букве фамилии автора или по первой букве названия документа или коллективного произведения, не имеющего строгого авторства. Каждой работе присваивается свой порядковый номер, который затем указывается в тексте работы при цитировании.&lt;/p&gt;
+&lt;p&gt;Каждый источник, включенный в Список литературы, имеет специфическое оформление. Помимо фамилии автора и названия работы указываются выходные данные. К ним относятся: место издания, название издательства или организации, опубликовавшей произведение, и год издания. Кроме того, указывается количество страниц в тексте.&lt;/p&gt;
+&lt;p&gt;Литература оформляется строго с учетом требований ГОСТ.&lt;/p&gt;
+&lt;h2 id=&#34;приложение&#34;&gt;Приложение&lt;/h2&gt;
+&lt;p&gt;Приложение представляет собой материал, уточняющий, иллюстрирующий, подтверждающий отдельные положения вашего исследования и не входящий в текст основной части. Оно имеет дополнительное значение. Приложение, как правило, используется в дипломных и реже в авторефератах и ​​курсовых работах, его состав определяется замыслом исследователя.&lt;/p&gt;
+&lt;p&gt;Виды приложений: копии планов и программ, фотографии, тексты тестов и анкет, образцы детских рисунков и сочинений, отчеты, отчеты, документы или выписки из них, уставы, положения и т.п.&lt;/p&gt;
+&lt;p&gt;Как правило, Заявки оформляются только в том случае, если их не менее двух. Для одного приложения он не вводится. Объем каждого приложения не может превышать пяти страниц.&lt;/p&gt;
+&lt;p&gt;В Приложение включены только те материалы, на которые есть ссылки в Основном тексте. Связь основного текста и Приложения обязательна.&lt;/p&gt;
+&lt;p&gt;Каждое приложение имеет свой номер (без указания знака №), размещается в конце работы с продолжением общей нумерации страниц. Приложения располагаются в порядке упоминания о них в тексте работы (см. любое приложение к этой книге).&lt;/p&gt;
+&lt;p&gt;Каждое Заявление оформляется отдельно. В правом углу первой страницы написано: «Приложение 1», «Приложение 2» и т. д.&lt;/p&gt;
+&lt;p&gt;Статистические таблицы, схемы опытов в Приложение не включены, они включены непосредственно в текст.&lt;/p&gt;
+&lt;p&gt;The total volume of the Appendix should not exceed one third of the volume of the entire text of the work.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Markdown language.</title>
+      <link>https://aaandrievskaya.github.io/ru/post/markdown-language/</link>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://aaandrievskaya.github.io/ru/post/markdown-language/</guid>
+      <description>&lt;h2 id=&#34;определение&#34;&gt;Определение&lt;/h2&gt;
+&lt;p&gt;Markdown — это простой язык разметки, используемый для создания форматированного текста (например, HTML) с помощью текстового редактора. Это позволяет вам добавлять базовое форматирование к тексту, используя символы, известные и доступные на всех клавиатурах. Размер шрифта, цвет и другие дополнительные параметры недоступны в Markdown.&lt;/p&gt;
+&lt;h2 id=&#34;синтаксис-уценки&#34;&gt;Синтаксис уценки&lt;/h2&gt;
+&lt;p&gt;Это краткий справочник по основным элементам синтаксиса Markdown. Единого стандарта не существует, и разные версии Markdown могут отличаться в деталях. Но основные элементы из списка ниже поддерживаются во всех стандартах.&lt;/p&gt;
+&lt;h2 id=&#34;выбор-текста&#34;&gt;Выбор текста&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Этот текст будет выделен курсивом&lt;/em&gt;
+&lt;em&gt;Этот текст будет выделен курсивом (курсивом)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Этот текст будет выделен жирным шрифтом&lt;/strong&gt;
+&lt;strong&gt;Этот текст будет выделен полужирным шрифтом&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Вы можете &lt;strong&gt;вставлять&lt;/strong&gt; один тип в другой&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;названия&#34;&gt;Названия&lt;/h2&gt;
+&lt;p&gt;&amp;lsquo;# Это самый большой заголовок, он превращается в тег &lt;h1&gt;
+&amp;lsquo;## &lt;h2&gt;
+&amp;lsquo;### &lt;h3&gt;
+&amp;lsquo;#### &lt;h4&gt;
+&amp;lsquo;##### &lt;h5&gt;
+&amp;lsquo;###### &lt;h6&gt;&lt;/p&gt;
+&lt;p&gt;В Markdown заголовки пишутся без символа &#39;&lt;/p&gt;
+&lt;h2 id=&#34;ссылки&#34;&gt;Ссылки&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://hexlet.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://hexlet.io&lt;/a&gt; - текст простой ссылки автоматически станет кликабельной
+Любой текст можно сделать ссылкой:&lt;/p&gt;
+&lt;p&gt;[Это ссылка Hexlet] (&lt;a href=&#34;https://hexlet.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://hexlet.io&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;цитировать&#34;&gt;Цитировать&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Это мудрая цитата
+мудрец.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;картинки&#34;&gt;Картинки&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://aaandrievskaya.github.io/assets/images/markdown/markdown.png&#34; alt=&#34;Это необязательный альтернативный текст&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;код&#34;&gt;Код&lt;/h2&gt;
+&lt;p&gt;Для выделения кода (или любого неформатированного текста) используются специальные символы — обратные галочки: `&lt;/p&gt;
+&lt;p&gt;Иногда вам нужно добавить фрагмент кода &lt;code&gt;function(12);&lt;/code&gt; к обычной строке текста.
+А иногда нужно вставить целый блок кода:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;константная&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;функция&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;число&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;если&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;число&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;число&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;возврата&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;вернуть&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;число&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;списки&#34;&gt;Списки&lt;/h2&gt;
+&lt;p&gt;Ненумерованный список:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Параграф
+*Еще один пункт
+&lt;ul&gt;
+&lt;li&gt;Подпункт&lt;/li&gt;
+&lt;li&gt;Еще один подпункт
+Нумерованный список:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Пункт&lt;/li&gt;
+&lt;li&gt;Еще один момент&lt;/li&gt;
+&lt;li&gt;Подпункт&lt;/li&gt;
+&lt;li&gt;Еще один подпункт
+Вы можете использовать любые числа в нумерованном списке - это не имеет значения. При преобразовании в HTML или другой формат числа станут правильными и непротиворечивыми (1, 2, 3 и т. д.).&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Управление версиями. Гит</title>
+      <link>https://aaandrievskaya.github.io/ru/post/version-control.-git/</link>
+      <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://aaandrievskaya.github.io/ru/post/version-control.-git/</guid>
+      <description>&lt;h2 id=&#34;version-control-systems-general-concepts&#34;&gt;Version control systems. General concepts&lt;/h2&gt;
+&lt;p&gt;Version control systems (VCS) are used when several people work on the same project. Usually the main project tree is stored in the local
+or a remote repository to which access is configured for project members. At
+making changes to the content of the project, the version control system allows them to
+fix, combine changes made by different project participants,
+rollback to any earlier version of the project, if required.
+Classical version control systems use a centralized model,
+assuming a single repository for storing files. Most of the version control functions are performed by a dedicated server.
+The project participant (user) before starting work through certain
+command gets the version of files it needs. After making changes, the user
+commits the new version to the repository. This does not remove previous versions.
+from the central repository and you can return to them at any time. The server can
+save not the full version of the changed files, but produce the so-called delta compression - save only changes between successive versions, which
+allows you to reduce the amount of stored data.
+Version control systems support traceability and resolution
+conflicts that may arise when several people work on one
+file. You can merge (merge) the changes made by different participants (automatically or manually), manually select the desired version, undo the changes altogether
+or lock files for modification. Depending on the settings, blocking is not
+allows other users to get a working copy or prevents modification
+working copy of the file by means of the OS file system, thus providing
+privileged access to only one user working with the file.
+Version control systems can also provide additional, more flexible
+functionality. For example, they can support working with multiple versions of the same file, keeping a common history of changes up to the branch point.
+versions and each branch&amp;rsquo;s own change histories. In addition, it is usually available
+information about which of the participants, when and what changes were made. Usually this
+kind of information is stored in the change log, access to which can be restricted.
+Unlike classical ones, in distributed version control systems, the central
+the repository is optional.
+Among the classic VCS, CVS, Subversion are the most famous, and among the distributed ones - Git, Bazaar, Mercurial. The principles of their work are similar, they differ mainly
+the syntax of the commands used in the work.&lt;/p&gt;
+&lt;h2 id=&#34;basic-git-commands&#34;&gt;Basic git commands&lt;/h2&gt;
+&lt;p&gt;The most commonly used git commands are:
+– creating the main repository tree:&lt;/p&gt;
+&lt;p&gt;1 git init&lt;/p&gt;
+&lt;p&gt;– receiving updates (changes) of the current tree from the central repository:&lt;/p&gt;
+&lt;p&gt;1 git pull&lt;/p&gt;
+&lt;p&gt;– sending all the changes made to the local tree to the central repository:&lt;/p&gt;
+&lt;p&gt;1 git push&lt;/p&gt;
+&lt;p&gt;– view the list of changed files in the current directory:&lt;/p&gt;
+&lt;p&gt;1 git status&lt;/p&gt;
+&lt;p&gt;– view current changes:&lt;/p&gt;
+&lt;p&gt;1 git diff&lt;/p&gt;
+&lt;p&gt;– saving current changes:
+– add all modified and/or created files and/or directories:&lt;/p&gt;
+&lt;p&gt;1 git add .&lt;/p&gt;
+&lt;p&gt;– add specific modified and/or created files and/or directories:&lt;/p&gt;
+&lt;p&gt;1 git add filenames&lt;/p&gt;
+&lt;p&gt;– delete a file and/or directory from the repository index (in this case, the file and/or directory
+remains in the local directory):&lt;/p&gt;
+&lt;p&gt;1 git rm filenames&lt;/p&gt;
+&lt;p&gt;– saving the added changes:
+– save all added changes and all modified files:&lt;/p&gt;
+&lt;p&gt;1 git commit -am &amp;lsquo;Commit description&amp;rsquo;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;save the added changes with a comment through the built-in
+editor:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;1 git commit&lt;/p&gt;
+&lt;p&gt;– creating a new branch based on the current one:&lt;/p&gt;
+&lt;p&gt;1 git checkout -b branchname&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;switch to some branch:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;1 git checkout branch_name&lt;/p&gt;
+&lt;p&gt;(when you switch to a branch that is not yet in the local repository, it will be
+created and linked to the remote)
+– pushing changes of a specific branch to the central repository:&lt;/p&gt;
+&lt;p&gt;1 git push origin branchname&lt;/p&gt;
+&lt;p&gt;– merge the branch with the current tree:&lt;/p&gt;
+&lt;p&gt;1 git merge &amp;ndash;no-ff branchname&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;deleting a branch:
+– deleting a local branch already merged with the main tree:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;1 git branch -d branchname&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;forced deletion of the local branch:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;1 git branch -D branchname&lt;/p&gt;
+&lt;p&gt;– deleting a branch from the central repository:&lt;/p&gt;
+&lt;p&gt;1 git push origin :branchname&lt;/p&gt;
+&lt;h2 id=&#34;standard-operating-procedures-for-a-central-repository&#34;&gt;Standard Operating Procedures for a Central Repository&lt;/h2&gt;
+&lt;p&gt;The work of the user with his branch begins with checking and receiving changes
+from the central repository (at the same time, to the local tree before starting this procedure
+should not be changed):&lt;/p&gt;
+&lt;p&gt;1 git checkout master
+2 git-pull
+3 git checkout -b branchname&lt;/p&gt;
+&lt;p&gt;You can then make changes in the local tree and/or branch.
+After the completion of making some change to the files and / or directories of the project
+you need to place them in the central repository. To do this, you need to check,
+which files have changed so far:&lt;/p&gt;
+&lt;p&gt;1 git status&lt;/p&gt;
+&lt;p&gt;and, if necessary, delete unnecessary files that we do not want to send to the central repository.
+Then it is useful to review the text of the changes for compliance with the rules for maintaining clean commits:&lt;/p&gt;
+&lt;p&gt;1 git diff&lt;/p&gt;
+&lt;p&gt;If some files should not be included in the commit, then we mark only those files that
+whose changes you want to save. To do this, use the commands add and/or
+deletion with the necessary options:&lt;/p&gt;
+&lt;p&gt;1 git add &amp;hellip;
+2 git rm &amp;hellip;&lt;/p&gt;
+&lt;p&gt;If you want to save all changes in the current directory, then use:&lt;/p&gt;
+&lt;p&gt;1 git add .&lt;/p&gt;
+&lt;p&gt;Then we save the changes, explaining what was done:&lt;/p&gt;
+&lt;p&gt;1 git commit -am &amp;ldquo;Some commit message&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;and send it to the central repository:&lt;/p&gt;
+&lt;p&gt;1 git push origin branchname
+or
+1 git push&lt;/p&gt;
+&lt;h2 id=&#34;working-with-a-local-repository&#34;&gt;Working with a local repository&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s create a local repository.
+First, let&amp;rsquo;s make a preliminary configuration by specifying the name and email of the owner of the repository:&lt;/p&gt;
+&lt;p&gt;1 git config &amp;ndash;global user.name &amp;ldquo;FirstName LastName&amp;rdquo;
+2 git config &amp;ndash;global user.email &amp;ldquo;work@mail&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;and setting utf-8 in git output:&lt;/p&gt;
+&lt;p&gt;1 git config &amp;ndash;global quotepath false&lt;/p&gt;
+&lt;p&gt;To initialize a local repository located, for example, in a directory
+~/tutorial must be typed on the command line:&lt;/p&gt;
+&lt;p&gt;1 cd
+2 mkdir tutorial
+3 cd tutorial
+4 git init&lt;/p&gt;
+&lt;p&gt;After that, a .git directory will appear in the tutorial directory, in which it will be stored
+change history.
+Let&amp;rsquo;s create a test text file hello.txt and add it to the local repository:&lt;/p&gt;
+&lt;p&gt;1 echo &amp;lsquo;hello world&amp;rsquo; &amp;gt; hello.txt
+2 git add hello.txt
+3 git commit -am &amp;lsquo;New file&amp;rsquo;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s use the status command to view the changes in the working directory since the last revision:&lt;/p&gt;
+&lt;p&gt;1 git status&lt;/p&gt;
+&lt;p&gt;While working on a project, one way or another, files can be created that are not
+needs to be added to the repository later. For example, temporary files created by editors or object files created by compilers. Can prescribe templates of file types ignored when adding to the repository in the file .gitignore with services. To do this, you first need to get a list of available
+templates:&lt;/p&gt;
+&lt;p&gt;curl -L -s &lt;a href=&#34;https://www.gitignore.io/api/list&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.gitignore.io/api/list&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Then download the template, for example, for C and C++&lt;/p&gt;
+&lt;p&gt;curl -L -s &lt;a href=&#34;https://www.gitignore.io/api/c&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.gitignore.io/api/c&lt;/a&gt; &amp;raquo; .gitignore
+curl -L -s &lt;a href=&#34;https://www.gitignore.io/api/c&amp;#43;&amp;#43;&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.gitignore.io/api/c++&lt;/a&gt; &amp;raquo; .gitignore&lt;/p&gt;
+&lt;h2 id=&#34;working-with-the-repository-server&#34;&gt;Working with the repository server&lt;/h2&gt;
+&lt;p&gt;For subsequent user identification on the repository server, it is necessary
+generate a key pair (private and public):&lt;/p&gt;
+&lt;p&gt;1 ssh-keygen -C &amp;ldquo;First Name Last Name &lt;a href=&#34;mailto:work@mail&#34;&gt;work@mail&lt;/a&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The keys are stored in the ~/.ssh/ directory.
+There are several repository servers available with the option of free
+data placement. For example, &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/&lt;/a&gt;.
+To work with it, you must first create an account on the website &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/&lt;/a&gt;. Then you need to upload the public key we generated earlier. For
+To do this, go to &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/&lt;/a&gt; under your account and go to the GitHub setting menu. After that, select SSH keys in the GitHub setting side menu and click
+the Add Key button. By copying the key from the local console to the clipboard&lt;/p&gt;
+&lt;p&gt;1 cat ~/.ssh/id_rsa.pub | xclip -sel clip&lt;/p&gt;
+&lt;p&gt;paste the key into the field that appears on the site.
+After that, you can create a repository on the site by selecting Repositories from the menu
+Create a repository, give it a name and make it public (public).
+To download the repository from the local directory to the server, execute the following
+commands:&lt;/p&gt;
+&lt;p&gt;1 git remote add origin
+2 ssh://git@github.com/&lt;username&gt;/&lt;reponame&gt;.git
+3 git push -u origin master&lt;/p&gt;
+&lt;p&gt;Further, on the local computer, you can perform standard procedures for working
+with git if there is a central repository.&lt;/p&gt;
+&lt;h2 id=&#34;general-information&#34;&gt;General information&lt;/h2&gt;
+&lt;p&gt;– Gitflow Workflow published and popularized by Vincent Driessen of Gitflow
+vie.
+– Gitflow Workflow involves building a strict branching model, taking into account
+project release.
+– This model is great for organizing a release-based workflow.
+– Working on the Gitflow model includes creating a separate branch for bug fixes
+in the working environment.
+– The sequence of actions when working on the Gitflow model:
+– The develop branch is created from the master branch.
+– A release branch is created from the develop branch.
+– Feature branches are created from the develop branch.
+– When work on the feature branch is completed, it is merged into the develop branch.
+– When work on a release branch is completed, it is merged into branches
+develop and master.
+– If a problem is found in master, a hotfix branch is created from master.
+– When a hotfix branch is completed, it is merged into branches
+develop and master.&lt;/p&gt;
+&lt;h2 id=&#34;software-installation&#34;&gt;Software installation&lt;/h2&gt;
+&lt;p&gt;– For Windows, the Chocolatey package manager is used. Git-flow is included
+git package.&lt;/p&gt;
+&lt;p&gt;1 choco install git&lt;/p&gt;
+&lt;p&gt;– For MacOS, use the Homebrew package manager.&lt;/p&gt;
+&lt;p&gt;1 brew install git-flow&lt;/p&gt;
+&lt;p&gt;– Linux
+– Gentoo&lt;/p&gt;
+&lt;p&gt;1 emerge dev-vcs/git-flow&lt;/p&gt;
+&lt;p&gt;– Ubuntu&lt;/p&gt;
+&lt;p&gt;1 apt-get install git-flow&lt;/p&gt;
+&lt;h2 id=&#34;work-process-with-gitflow&#34;&gt;Work process with Gitflow&lt;/h2&gt;
+&lt;h3 id=&#34;main-branches-master-and-development-branches-develop&#34;&gt;Main branches (master) and development branches (develop)&lt;/h3&gt;
+&lt;p&gt;To commit the history of the project within this process instead of a single master branch
+two branches are used. The master branch holds the official release history, while the develop branch is for merging all the features. In addition, for convenience
+it is recommended to give all commits in the master branch a version number.
+When using the git-flow extension library, you need to initialize the structure in an existing repository:&lt;/p&gt;
+&lt;p&gt;1 git flow init&lt;/p&gt;
+&lt;p&gt;For github, the Version tag prefix should be set to v.
+After that, check which branch you are on:&lt;/p&gt;
+&lt;p&gt;1 git branch&lt;/p&gt;
+&lt;h3 id=&#34;feature-branches&#34;&gt;Feature branches&lt;/h3&gt;
+&lt;p&gt;Each new feature should have its own branch, which can be
+send to the central repository for backup or sharing
+team work. Feature branches are created not on the basis of master, but on the basis of develop.
+When work on a feature is completed, the corresponding branch is merged back
+with the develop branch. Features should not be pushed directly to the master branch.
+Typically, feature branches are created from the latest develop branch.&lt;/p&gt;
+&lt;h3 id=&#34;creating-a-feature-branch&#34;&gt;Creating a feature branch&lt;/h3&gt;
+&lt;p&gt;Let&amp;rsquo;s create a new feature branch:&lt;/p&gt;
+&lt;p&gt;1 git flow feature start feature_branch&lt;/p&gt;
+&lt;p&gt;Further we work as usual&lt;/p&gt;
+&lt;h3 id=&#34;end-of-work-on-a-feature-branch&#34;&gt;End of work on a feature branch&lt;/h3&gt;
+&lt;p&gt;Upon completion of work on a feature
+merge feature_branch with develop:&lt;/p&gt;
+&lt;p&gt;1 git flow feature finish feature_branch&lt;/p&gt;
+&lt;h3 id=&#34;release-branches&#34;&gt;Release branches&lt;/h3&gt;
+&lt;p&gt;When the develop branch has enough features to release, the develop branch
+a release branch is created. Creating this branch starts the next release cycle,
+and from that moment on, new functions can no longer be added - only debugging is allowed,
+creating documentation and solving other problems. When the release preparation is completed,
+the release branch is merged into master and given a version number. After that, you need to merge with the develop branch, in which, since the creation of the release branch,
+changes occur.
+Due to the fact that a special branch is used for preparing releases, one
+a team can refine the current release while another team continues
+work on features for the next one.
+You can create a new release branch with the following command:&lt;/p&gt;
+&lt;p&gt;1 git flow release start 1.0.0&lt;/p&gt;
+&lt;p&gt;The following commands are used to complete work on the release branch:&lt;/p&gt;
+&lt;p&gt;1 git flow release finish 1.0.0&lt;/p&gt;
+&lt;h3 id=&#34;hotfix-branches&#34;&gt;Hotfix branches&lt;/h3&gt;
+&lt;p&gt;Support branches or hotfix branches are used for quick fixes
+to working releases. They are created from the master branch. This is the only thread that
+must be created directly from master. Once the fix is ​​complete,
+the branch should be merged into master and develop. The master branch should be tagged with an updated version number.
+Having a dedicated branch for fixing bugs allows the team to resolve issues without interrupting the rest of the workflow or waiting for the next cycle.
+release.
+A hotfix branch can be created with the following commands:&lt;/p&gt;
+&lt;p&gt;1 git flow hotfix start hotfix_branch&lt;/p&gt;
+&lt;p&gt;When finished, the hotfix branch is merged into master and develop:&lt;/p&gt;
+&lt;p&gt;1 git flow hotfix finish hotfix_branch&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

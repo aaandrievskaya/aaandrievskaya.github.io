@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown | Academic</title>
+    <link>https://aaandrievskaya.github.io/ru/tag/markdown/</link>
+      <atom:link href="https://aaandrievskaya.github.io/ru/tag/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <description>Markdown</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru</language><lastBuildDate>Sat, 14 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://aaandrievskaya.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Markdown</title>
+      <link>https://aaandrievskaya.github.io/ru/tag/markdown/</link>
+    </image>
+    
+    <item>
+      <title>Markdown language.</title>
+      <link>https://aaandrievskaya.github.io/ru/post/markdown-language/</link>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://aaandrievskaya.github.io/ru/post/markdown-language/</guid>
+      <description>&lt;h2 id=&#34;определение&#34;&gt;Определение&lt;/h2&gt;
+&lt;p&gt;Markdown — это простой язык разметки, используемый для создания форматированного текста (например, HTML) с помощью текстового редактора. Это позволяет вам добавлять базовое форматирование к тексту, используя символы, известные и доступные на всех клавиатурах. Размер шрифта, цвет и другие дополнительные параметры недоступны в Markdown.&lt;/p&gt;
+&lt;h2 id=&#34;синтаксис-уценки&#34;&gt;Синтаксис уценки&lt;/h2&gt;
+&lt;p&gt;Это краткий справочник по основным элементам синтаксиса Markdown. Единого стандарта не существует, и разные версии Markdown могут отличаться в деталях. Но основные элементы из списка ниже поддерживаются во всех стандартах.&lt;/p&gt;
+&lt;h2 id=&#34;выбор-текста&#34;&gt;Выбор текста&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Этот текст будет выделен курсивом&lt;/em&gt;
+&lt;em&gt;Этот текст будет выделен курсивом (курсивом)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Этот текст будет выделен жирным шрифтом&lt;/strong&gt;
+&lt;strong&gt;Этот текст будет выделен полужирным шрифтом&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Вы можете &lt;strong&gt;вставлять&lt;/strong&gt; один тип в другой&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;названия&#34;&gt;Названия&lt;/h2&gt;
+&lt;p&gt;&amp;lsquo;# Это самый большой заголовок, он превращается в тег &lt;h1&gt;
+&amp;lsquo;## &lt;h2&gt;
+&amp;lsquo;### &lt;h3&gt;
+&amp;lsquo;#### &lt;h4&gt;
+&amp;lsquo;##### &lt;h5&gt;
+&amp;lsquo;###### &lt;h6&gt;&lt;/p&gt;
+&lt;p&gt;В Markdown заголовки пишутся без символа &#39;&lt;/p&gt;
+&lt;h2 id=&#34;ссылки&#34;&gt;Ссылки&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://hexlet.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://hexlet.io&lt;/a&gt; - текст простой ссылки автоматически станет кликабельной
+Любой текст можно сделать ссылкой:&lt;/p&gt;
+&lt;p&gt;[Это ссылка Hexlet] (&lt;a href=&#34;https://hexlet.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://hexlet.io&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;цитировать&#34;&gt;Цитировать&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Это мудрая цитата
+мудрец.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;картинки&#34;&gt;Картинки&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://aaandrievskaya.github.io/assets/images/markdown/markdown.png&#34; alt=&#34;Это необязательный альтернативный текст&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;код&#34;&gt;Код&lt;/h2&gt;
+&lt;p&gt;Для выделения кода (или любого неформатированного текста) используются специальные символы — обратные галочки: `&lt;/p&gt;
+&lt;p&gt;Иногда вам нужно добавить фрагмент кода &lt;code&gt;function(12);&lt;/code&gt; к обычной строке текста.
+А иногда нужно вставить целый блок кода:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;константная&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;функция&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;число&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;если&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;число&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;число&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;возврата&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;вернуть&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;число&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;списки&#34;&gt;Списки&lt;/h2&gt;
+&lt;p&gt;Ненумерованный список:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Параграф
+*Еще один пункт
+&lt;ul&gt;
+&lt;li&gt;Подпункт&lt;/li&gt;
+&lt;li&gt;Еще один подпункт
+Нумерованный список:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Пункт&lt;/li&gt;
+&lt;li&gt;Еще один момент&lt;/li&gt;
+&lt;li&gt;Подпункт&lt;/li&gt;
+&lt;li&gt;Еще один подпункт
+Вы можете использовать любые числа в нумерованном списке - это не имеет значения. При преобразовании в HTML или другой формат числа станут правильными и непротиворечивыми (1, 2, 3 и т. д.).&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

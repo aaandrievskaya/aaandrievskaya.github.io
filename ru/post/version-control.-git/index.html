@@ -1,0 +1,1444 @@
+<!DOCTYPE html><html lang="ru" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.5.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Андриевская Анастасия Андреевна" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Изучим идеологию и применение инструментов контроля версий. Овладейте навыками работы с git." />
+
+  
+    <link rel="alternate" hreflang="en" href="https://aaandrievskaya.github.io/post/version-control.-git/" />
+  
+  <link rel="alternate" hreflang="ru" href="https://aaandrievskaya.github.io/ru/post/version-control.-git/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.1052fab8b7700a3dc49ee23683097d66.css" />
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/ru/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://aaandrievskaya.github.io/ru/post/version-control.-git/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@wowchemy" />
+    <meta property="twitter:creator" content="@wowchemy" />
+  
+  <meta property="og:site_name" content="Academic" />
+  <meta property="og:url" content="https://aaandrievskaya.github.io/ru/post/version-control.-git/" />
+  <meta property="og:title" content="Управление версиями. Гит | Academic" />
+  <meta property="og:description" content="Изучим идеологию и применение инструментов контроля версий. Овладейте навыками работы с git." /><meta property="og:image" content="https://aaandrievskaya.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://aaandrievskaya.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="ru" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2022-05-07T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2022-05-07T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aaandrievskaya.github.io/ru/post/version-control.-git/"
+  },
+  "headline": "Управление версиями. Гит",
+  
+  "datePublished": "2022-05-07T00:00:00Z",
+  "dateModified": "2022-05-07T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "администратор"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Academic",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://aaandrievskaya.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Изучим идеологию и применение инструментов контроля версий. Овладейте навыками работы с git."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Управление версиями. Гит | Academic</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="97164bfe184b400c3adb26bd96db98ad" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.2ed908358299dd7ab553faae685c746c.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Поиск</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Поиск ..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Поиск ...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/ru/">Academic</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Переключить навигацию">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/ru/">Academic</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ru/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ru/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ru/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ru/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ru/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/ru/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Поиск"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown i18n-dropdown">
+          <a href="#" class="nav-link " data-toggle="dropdown"
+             aria-haspopup="true" aria-label="Languages">
+            <i class="fas fa-globe mr-1" aria-hidden="true"></i></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item dropdown-item-active">
+              <span>Русский</span>
+            </div>
+            
+            <a class="dropdown-item" href="https://aaandrievskaya.github.io/post/version-control.-git/">
+              <span>English</span>
+            </a>
+            
+          </div>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Управление версиями. Гит</h1>
+
+  
+  <p class="page-subtitle">Изучим идеологию и применение инструментов контроля версий. Овладейте навыками работы с git.</p>
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      администратор</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    мая 7, 2022
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    10 мин. для прочтения
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/ru/category/demo/">Demo</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h2 id="version-control-systems-general-concepts">Version control systems. General concepts</h2>
+<p>Version control systems (VCS) are used when several people work on the same project. Usually the main project tree is stored in the local
+or a remote repository to which access is configured for project members. At
+making changes to the content of the project, the version control system allows them to
+fix, combine changes made by different project participants,
+rollback to any earlier version of the project, if required.
+Classical version control systems use a centralized model,
+assuming a single repository for storing files. Most of the version control functions are performed by a dedicated server.
+The project participant (user) before starting work through certain
+command gets the version of files it needs. After making changes, the user
+commits the new version to the repository. This does not remove previous versions.
+from the central repository and you can return to them at any time. The server can
+save not the full version of the changed files, but produce the so-called delta compression - save only changes between successive versions, which
+allows you to reduce the amount of stored data.
+Version control systems support traceability and resolution
+conflicts that may arise when several people work on one
+file. You can merge (merge) the changes made by different participants (automatically or manually), manually select the desired version, undo the changes altogether
+or lock files for modification. Depending on the settings, blocking is not
+allows other users to get a working copy or prevents modification
+working copy of the file by means of the OS file system, thus providing
+privileged access to only one user working with the file.
+Version control systems can also provide additional, more flexible
+functionality. For example, they can support working with multiple versions of the same file, keeping a common history of changes up to the branch point.
+versions and each branch&rsquo;s own change histories. In addition, it is usually available
+information about which of the participants, when and what changes were made. Usually this
+kind of information is stored in the change log, access to which can be restricted.
+Unlike classical ones, in distributed version control systems, the central
+the repository is optional.
+Among the classic VCS, CVS, Subversion are the most famous, and among the distributed ones - Git, Bazaar, Mercurial. The principles of their work are similar, they differ mainly
+the syntax of the commands used in the work.</p>
+<h2 id="basic-git-commands">Basic git commands</h2>
+<p>The most commonly used git commands are:
+– creating the main repository tree:</p>
+<p>1 git init</p>
+<p>– receiving updates (changes) of the current tree from the central repository:</p>
+<p>1 git pull</p>
+<p>– sending all the changes made to the local tree to the central repository:</p>
+<p>1 git push</p>
+<p>– view the list of changed files in the current directory:</p>
+<p>1 git status</p>
+<p>– view current changes:</p>
+<p>1 git diff</p>
+<p>– saving current changes:
+– add all modified and/or created files and/or directories:</p>
+<p>1 git add .</p>
+<p>– add specific modified and/or created files and/or directories:</p>
+<p>1 git add filenames</p>
+<p>– delete a file and/or directory from the repository index (in this case, the file and/or directory
+remains in the local directory):</p>
+<p>1 git rm filenames</p>
+<p>– saving the added changes:
+– save all added changes and all modified files:</p>
+<p>1 git commit -am &lsquo;Commit description&rsquo;</p>
+<ul>
+<li>save the added changes with a comment through the built-in
+editor:</li>
+</ul>
+<p>1 git commit</p>
+<p>– creating a new branch based on the current one:</p>
+<p>1 git checkout -b branchname</p>
+<ul>
+<li>switch to some branch:</li>
+</ul>
+<p>1 git checkout branch_name</p>
+<p>(when you switch to a branch that is not yet in the local repository, it will be
+created and linked to the remote)
+– pushing changes of a specific branch to the central repository:</p>
+<p>1 git push origin branchname</p>
+<p>– merge the branch with the current tree:</p>
+<p>1 git merge &ndash;no-ff branchname</p>
+<ul>
+<li>deleting a branch:
+– deleting a local branch already merged with the main tree:</li>
+</ul>
+<p>1 git branch -d branchname</p>
+<ul>
+<li>forced deletion of the local branch:</li>
+</ul>
+<p>1 git branch -D branchname</p>
+<p>– deleting a branch from the central repository:</p>
+<p>1 git push origin :branchname</p>
+<h2 id="standard-operating-procedures-for-a-central-repository">Standard Operating Procedures for a Central Repository</h2>
+<p>The work of the user with his branch begins with checking and receiving changes
+from the central repository (at the same time, to the local tree before starting this procedure
+should not be changed):</p>
+<p>1 git checkout master
+2 git-pull
+3 git checkout -b branchname</p>
+<p>You can then make changes in the local tree and/or branch.
+After the completion of making some change to the files and / or directories of the project
+you need to place them in the central repository. To do this, you need to check,
+which files have changed so far:</p>
+<p>1 git status</p>
+<p>and, if necessary, delete unnecessary files that we do not want to send to the central repository.
+Then it is useful to review the text of the changes for compliance with the rules for maintaining clean commits:</p>
+<p>1 git diff</p>
+<p>If some files should not be included in the commit, then we mark only those files that
+whose changes you want to save. To do this, use the commands add and/or
+deletion with the necessary options:</p>
+<p>1 git add &hellip;
+2 git rm &hellip;</p>
+<p>If you want to save all changes in the current directory, then use:</p>
+<p>1 git add .</p>
+<p>Then we save the changes, explaining what was done:</p>
+<p>1 git commit -am &ldquo;Some commit message&rdquo;</p>
+<p>and send it to the central repository:</p>
+<p>1 git push origin branchname
+or
+1 git push</p>
+<h2 id="working-with-a-local-repository">Working with a local repository</h2>
+<p>Let&rsquo;s create a local repository.
+First, let&rsquo;s make a preliminary configuration by specifying the name and email of the owner of the repository:</p>
+<p>1 git config &ndash;global user.name &ldquo;FirstName LastName&rdquo;
+2 git config &ndash;global user.email &ldquo;work@mail&rdquo;</p>
+<p>and setting utf-8 in git output:</p>
+<p>1 git config &ndash;global quotepath false</p>
+<p>To initialize a local repository located, for example, in a directory
+~/tutorial must be typed on the command line:</p>
+<p>1 cd
+2 mkdir tutorial
+3 cd tutorial
+4 git init</p>
+<p>After that, a .git directory will appear in the tutorial directory, in which it will be stored
+change history.
+Let&rsquo;s create a test text file hello.txt and add it to the local repository:</p>
+<p>1 echo &lsquo;hello world&rsquo; &gt; hello.txt
+2 git add hello.txt
+3 git commit -am &lsquo;New file&rsquo;</p>
+<p>Let&rsquo;s use the status command to view the changes in the working directory since the last revision:</p>
+<p>1 git status</p>
+<p>While working on a project, one way or another, files can be created that are not
+needs to be added to the repository later. For example, temporary files created by editors or object files created by compilers. Can prescribe templates of file types ignored when adding to the repository in the file .gitignore with services. To do this, you first need to get a list of available
+templates:</p>
+<p>curl -L -s <a href="https://www.gitignore.io/api/list" target="_blank" rel="noopener">https://www.gitignore.io/api/list</a></p>
+<p>Then download the template, for example, for C and C++</p>
+<p>curl -L -s <a href="https://www.gitignore.io/api/c" target="_blank" rel="noopener">https://www.gitignore.io/api/c</a> &raquo; .gitignore
+curl -L -s <a href="https://www.gitignore.io/api/c&#43;&#43;" target="_blank" rel="noopener">https://www.gitignore.io/api/c++</a> &raquo; .gitignore</p>
+<h2 id="working-with-the-repository-server">Working with the repository server</h2>
+<p>For subsequent user identification on the repository server, it is necessary
+generate a key pair (private and public):</p>
+<p>1 ssh-keygen -C &ldquo;First Name Last Name <a href="mailto:work@mail">work@mail</a>&rdquo;</p>
+<p>The keys are stored in the ~/.ssh/ directory.
+There are several repository servers available with the option of free
+data placement. For example, <a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a>.
+To work with it, you must first create an account on the website <a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a>. Then you need to upload the public key we generated earlier. For
+To do this, go to <a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a> under your account and go to the GitHub setting menu. After that, select SSH keys in the GitHub setting side menu and click
+the Add Key button. By copying the key from the local console to the clipboard</p>
+<p>1 cat ~/.ssh/id_rsa.pub | xclip -sel clip</p>
+<p>paste the key into the field that appears on the site.
+After that, you can create a repository on the site by selecting Repositories from the menu
+Create a repository, give it a name and make it public (public).
+To download the repository from the local directory to the server, execute the following
+commands:</p>
+<p>1 git remote add origin
+2 ssh://git@github.com/<username>/<reponame>.git
+3 git push -u origin master</p>
+<p>Further, on the local computer, you can perform standard procedures for working
+with git if there is a central repository.</p>
+<h2 id="general-information">General information</h2>
+<p>– Gitflow Workflow published and popularized by Vincent Driessen of Gitflow
+vie.
+– Gitflow Workflow involves building a strict branching model, taking into account
+project release.
+– This model is great for organizing a release-based workflow.
+– Working on the Gitflow model includes creating a separate branch for bug fixes
+in the working environment.
+– The sequence of actions when working on the Gitflow model:
+– The develop branch is created from the master branch.
+– A release branch is created from the develop branch.
+– Feature branches are created from the develop branch.
+– When work on the feature branch is completed, it is merged into the develop branch.
+– When work on a release branch is completed, it is merged into branches
+develop and master.
+– If a problem is found in master, a hotfix branch is created from master.
+– When a hotfix branch is completed, it is merged into branches
+develop and master.</p>
+<h2 id="software-installation">Software installation</h2>
+<p>– For Windows, the Chocolatey package manager is used. Git-flow is included
+git package.</p>
+<p>1 choco install git</p>
+<p>– For MacOS, use the Homebrew package manager.</p>
+<p>1 brew install git-flow</p>
+<p>– Linux
+– Gentoo</p>
+<p>1 emerge dev-vcs/git-flow</p>
+<p>– Ubuntu</p>
+<p>1 apt-get install git-flow</p>
+<h2 id="work-process-with-gitflow">Work process with Gitflow</h2>
+<h3 id="main-branches-master-and-development-branches-develop">Main branches (master) and development branches (develop)</h3>
+<p>To commit the history of the project within this process instead of a single master branch
+two branches are used. The master branch holds the official release history, while the develop branch is for merging all the features. In addition, for convenience
+it is recommended to give all commits in the master branch a version number.
+When using the git-flow extension library, you need to initialize the structure in an existing repository:</p>
+<p>1 git flow init</p>
+<p>For github, the Version tag prefix should be set to v.
+After that, check which branch you are on:</p>
+<p>1 git branch</p>
+<h3 id="feature-branches">Feature branches</h3>
+<p>Each new feature should have its own branch, which can be
+send to the central repository for backup or sharing
+team work. Feature branches are created not on the basis of master, but on the basis of develop.
+When work on a feature is completed, the corresponding branch is merged back
+with the develop branch. Features should not be pushed directly to the master branch.
+Typically, feature branches are created from the latest develop branch.</p>
+<h3 id="creating-a-feature-branch">Creating a feature branch</h3>
+<p>Let&rsquo;s create a new feature branch:</p>
+<p>1 git flow feature start feature_branch</p>
+<p>Further we work as usual</p>
+<h3 id="end-of-work-on-a-feature-branch">End of work on a feature branch</h3>
+<p>Upon completion of work on a feature
+merge feature_branch with develop:</p>
+<p>1 git flow feature finish feature_branch</p>
+<h3 id="release-branches">Release branches</h3>
+<p>When the develop branch has enough features to release, the develop branch
+a release branch is created. Creating this branch starts the next release cycle,
+and from that moment on, new functions can no longer be added - only debugging is allowed,
+creating documentation and solving other problems. When the release preparation is completed,
+the release branch is merged into master and given a version number. After that, you need to merge with the develop branch, in which, since the creation of the release branch,
+changes occur.
+Due to the fact that a special branch is used for preparing releases, one
+a team can refine the current release while another team continues
+work on features for the next one.
+You can create a new release branch with the following command:</p>
+<p>1 git flow release start 1.0.0</p>
+<p>The following commands are used to complete work on the release branch:</p>
+<p>1 git flow release finish 1.0.0</p>
+<h3 id="hotfix-branches">Hotfix branches</h3>
+<p>Support branches or hotfix branches are used for quick fixes
+to working releases. They are created from the master branch. This is the only thread that
+must be created directly from master. Once the fix is ​​complete,
+the branch should be merged into master and develop. The master branch should be tagged with an updated version number.
+Having a dedicated branch for fixing bugs allows the team to resolve issues without interrupting the rest of the workflow or waiting for the next cycle.
+release.
+A hotfix branch can be created with the following commands:</p>
+<p>1 git flow hotfix start hotfix_branch</p>
+<p>When finished, the hotfix branch is merged into master and develop:</p>
+<p>1 git flow hotfix finish hotfix_branch</p>
+
+    </div>
+
+    
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/ru/tag/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/">Работа</a>
+  
+  <a class="badge badge-light" href="/ru/tag/git/">Git</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://aaandrievskaya.github.io/ru/post/version-control.-git/&amp;text=%d0%a3%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5%20%d0%b2%d0%b5%d1%80%d1%81%d0%b8%d1%8f%d0%bc%d0%b8.%20%d0%93%d0%b8%d1%82" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://aaandrievskaya.github.io/ru/post/version-control.-git/&amp;t=%d0%a3%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5%20%d0%b2%d0%b5%d1%80%d1%81%d0%b8%d1%8f%d0%bc%d0%b8.%20%d0%93%d0%b8%d1%82" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=%d0%a3%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5%20%d0%b2%d0%b5%d1%80%d1%81%d0%b8%d1%8f%d0%bc%d0%b8.%20%d0%93%d0%b8%d1%82&amp;body=https://aaandrievskaya.github.io/ru/post/version-control.-git/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://aaandrievskaya.github.io/ru/post/version-control.-git/&amp;title=%d0%a3%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5%20%d0%b2%d0%b5%d1%80%d1%81%d0%b8%d1%8f%d0%bc%d0%b8.%20%d0%93%d0%b8%d1%82" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=%d0%a3%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5%20%d0%b2%d0%b5%d1%80%d1%81%d0%b8%d1%8f%d0%bc%d0%b8.%20%d0%93%d0%b8%d1%82%20https://aaandrievskaya.github.io/ru/post/version-control.-git/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://aaandrievskaya.github.io/ru/post/version-control.-git/&amp;title=%d0%a3%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5%20%d0%b2%d0%b5%d1%80%d1%81%d0%b8%d1%8f%d0%bc%d0%b8.%20%d0%93%d0%b8%d1%82" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2022 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.53d67dc2cb1ebceb89d5e2aba2f86112.js"></script>
+
+    
+    
+    
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/ru/js/wowchemy.min.2dc4ec27206b78f9d05ad86312c44710.js"></script>
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+</body>
+</html>
